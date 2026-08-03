@@ -1,0 +1,51 @@
+{
+  "hullName": "Robe",
+  "hullId": "triceti_robe",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/triceti/ships/Cetevska/Robe.png",
+  "style": "LOW_TECH",
+  "height": 19,
+  "width": 16,
+  "center": [8, 9.5],
+  "collisionRadius": 16.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 16,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [8.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-4.5, 6],
+      "length": 6.159977,
+      "width": 3.495532,
+      "angle": 135,
+      "contrailSize": 3.495532,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-4.5, -6],
+      "length": 6.159977,
+      "width": 3.495532,
+      "angle": -135,
+      "contrailSize": 3.495532,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    9.5, 6,
+    2.5, 9,
+    -9, 4,
+    -9, -4,
+    2.5, -9,
+    9.5, -6
+  ]
+}

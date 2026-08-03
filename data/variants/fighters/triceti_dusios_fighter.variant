@@ -1,0 +1,22 @@
+{
+  "variantId": "triceti_dusios_fighter",
+  "hullId": "triceti_dusios",
+  "displayName": "Dusios Drone",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "triceti_cetoran_beam"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

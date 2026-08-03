@@ -1,0 +1,175 @@
+{
+	id:"cetevska",
+	"color":[162,168,125,255],
+	"displayName":"Cetevska",
+	"displayNameWithArticle":"Cetevska",
+	"displayNameLong":"Cetevska",
+	"displayNameLongWithArticle":"Cetevska",
+	"displayNameIsOrAre":"is",
+	"logo":"graphics/triceti/factions/cetevska.png",
+	"crest":"graphics/triceti/factions/crest_cetevska.png",
+	"shipNamePrefix":"",
+	"shipNameSources":{
+		"BEASTS":2,
+		"GENERAL":1,
+	},
+	"description":"No description yet.",
+	"names":{
+		"fringe":1,
+	},
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":[],
+		"hulls":[
+		],
+	},
+	"knownShips":{
+		"tags":["cetevska"],
+		"hulls":[
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+		],
+	},
+	"knownFighters":{
+		"tags":["cetevska"],
+		"fighters":[
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+		],
+	},
+	"knownWeapons":{
+		"tags":["ind", "merc", "he0"],
+		"weapons":[
+		],
+	},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+		],
+	},
+	"knownHullMods":{
+		"tags":["standard", "ind", "independent"],
+		"hullMods":[
+		],
+	},
+	"weaponSellFrequency":{
+	},
+	"fighterSellFrequency":{
+	},
+	"hullmodSellFrequency":{
+	},
+	"factionDoctrine":{
+		"warships":6,
+		"carriers":1,
+		"phaseShips":0,
+		
+		"officerQuality":3,
+		"shipQuality":1,
+		"numShips":3,
+		
+		"shipSize":3,
+		"aggression":2,
+		
+		"combatFreighterProbability":0.5,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0.5,				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":1,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.25,
+
+		"commanderSkillsShuffleProbability":1,
+		"commanderSkills":[
+			"crew_training",
+			"tactical_drills",
+			"officer_training",
+			"coordinated_maneuvers",
+			"electronic_warfare",
+			"fighter_uplink",
+			"carrier_group",
+			"flux_regulation",
+		],
+	},
+	"illegalCommodities":[
+	],
+	"portraits":{
+		"standard_male":[
+			"graphics/triceti/portraits/cetevska_m1.png",
+			"graphics/triceti/portraits/cetevska_m2.png",
+			"graphics/triceti/portraits/cetevska_m3.png",
+			"graphics/triceti/portraits/cetevska_m4.png",
+			"graphics/triceti/portraits/cetevska_m5.png",
+			"graphics/triceti/portraits/cetevska_m6.png",
+			"graphics/triceti/portraits/cetevska_m7.png",
+			"graphics/triceti/portraits/cetevska_m8.png",
+			"graphics/triceti/portraits/cetevska_m9.png",
+			"graphics/triceti/portraits/cetevska_m10.png",
+			"graphics/triceti/portraits/cetevska_m11.png",
+			"graphics/triceti/portraits/cetevska_m12.png",
+			"graphics/triceti/portraits/cetevska_m13.png"
+		],
+		"standard_female":[
+			"graphics/triceti/portraits/cetevska_f1.png",
+			"graphics/triceti/portraits/cetevska_f2.png",
+			"graphics/triceti/portraits/cetevska_f3.png",
+			"graphics/triceti/portraits/cetevska_f4.png",
+			"graphics/triceti/portraits/cetevska_f5.png",
+			"graphics/triceti/portraits/cetevska_f6.png"
+		],
+	},
+	"voices":{
+		"LOW":{
+			"spacer":10,
+			"soldier":5,
+		},
+		"MEDIUM":{
+			"spacer":10,
+			"soldier":5,
+		},
+		"HIGH":{
+			"soldier":10,
+		},
+	},
+	"custom":{
+		"decentralized":false,
+		"allowsTransponderOffTrade":true,
+		"offersCommissions":false,
+		"engagesInHostilities":true,
+		"buysAICores":true,
+		"AICoreValueMult":1,
+		"AICoreRepMult":1,
+		"buysSurveyData":true,
+		"hostilityImpactOnGrowth":true,
+		"caresAboutAtrocities":false,
+		"punitiveExpeditionData":{
+			"vsCompetitors":false,
+			"vsFreePort":false,
+			"canBombard":false,
+			"territorial":true,
+		},
+		"simulatorData":{
+			"showInSimulator":true,
+		},
+	},
+	"fleetTypeNames":{
+		"mercScout":"Mercenary Scout",
+		"mercBountyHunter":"Bounty Hunter",
+		"mercPrivateer":"Privateer",
+		"mercPatrol":"Mercenary Patrol",
+		"mercArmada":"Mercenary Company",
+	},
+},	

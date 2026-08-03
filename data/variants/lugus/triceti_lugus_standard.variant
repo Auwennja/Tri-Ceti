@@ -1,0 +1,44 @@
+{
+  "variantId": "triceti_lugus_standard",
+  "hullId": "triceti_lugus",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 3,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "autorepair",
+    "auxiliarythrusters"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "triceti_mitra",
+        "WS0004": "triceti_mitra",
+        "WS0005": "triceti_mitra",
+        "WS0006": "triceti_mitra",
+        "WS0007": "triceti_mitra",
+        "WS0008": "triceti_mitra",
+        "WS0009": "triceti_mitra",
+        "WS0010": "triceti_mitra",
+        "WS0011": "triceti_mitra",
+        "WS0012": "triceti_mitra",
+        "WS0013": "triceti_mitra",
+        "WS0014": "triceti_mitra"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "vulcan",
+        "WS0002": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

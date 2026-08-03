@@ -1,0 +1,84 @@
+{
+  "variantId": "triceti_camulus_escort",
+  "hullId": "triceti_camulus",
+  "displayName": "Escort",
+  "goalVariant": false,
+  "fluxCapacitors": 15,
+  "fluxVents": 48,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0021": "hil",
+        "WS0022": "hil"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "gravitonbeam",
+        "WS0006": "gravitonbeam",
+        "WS0013": "taclaser",
+        "WS0014": "taclaser",
+        "WS0015": "taclaser",
+        "WS0016": "taclaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "pdburst",
+        "WS0004": "pdburst",
+        "WS0023": "pdburst"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightag",
+        "WS0002": "lightag",
+        "WS0007": "lightag",
+        "WS0008": "lightag",
+        "WS0009": "lightag",
+        "WS0010": "lightag",
+        "WS0011": "lightag",
+        "WS0012": "lightag",
+        "WS0017": "lightag",
+        "WS0018": "lightag",
+        "WS0019": "lightag",
+        "WS0020": "lightag"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0028": "triceti_mitra",
+        "WS0029": "triceti_mitra",
+        "WS0030": "triceti_mitra",
+        "WS0031": "triceti_mitra"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

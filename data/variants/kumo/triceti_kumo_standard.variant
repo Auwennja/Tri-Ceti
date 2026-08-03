@@ -1,0 +1,23 @@
+{
+  "variantId": "triceti_kumo_standard",
+  "hullId": "triceti_kumo",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 4,
+  "fluxVents": 8,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "amblaster",
+        "WS0002": "amblaster"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

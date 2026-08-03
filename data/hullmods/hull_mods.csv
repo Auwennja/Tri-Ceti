@@ -1,0 +1,23 @@
+name,id,tier,rarity,tech,manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sModDesc,sprite
+Degraded Riveted Plating,triceti_degraded_riveted_plating,,,,,"defensive, no_drop","Defenses, Logistics",,FALSE,FALSE,FALSE,0,0,0,0,auwennja.triceti.hullmods.triceti_degraded_riveted_plating,"The ship's armor plating is low maintenance, riveted and allows for easy replacement or repairing.
+
+Reduces supply cost of the ship, the repair time of the ship after combat, as well as the turrets and engines during combat by %s.",Reduces supply cost of the ship and repair time by %s.,,graphics/triceti/hullmods/degraded_riveted_plating.png
+Adaptive Sensor Suite,triceti_adaptive_sensor_suite,,,,,"offensive, no_drop, weapons, special","Weapons, Special",,FALSE,FALSE,FALSE,0,0,0,0,auwennja.triceti.hullmods.triceti_adaptive_sensor_suite,"The Adaptive Sensor Suite is a built-in Cetoran component with moving parts. It allows ships to not only detect, but also lock onto targets from a greater distance.
+
+Weapon range is increased by %s/%s/%s/%s.",Increases weapon range by %s/%s/%s/%s.,,graphics/triceti/hullmods/adaptive_sensor_suite.png
+Riveted Plating,triceti_riveted_plating,,,,,"defensive, no_drop","Defenses, Logistics",,FALSE,FALSE,FALSE,0,0,0,0,auwennja.triceti.hullmods.triceti_riveted_plating,"To counter the constant attrition of armor plating and otherl critical ship component, Cetoran engineers developed a simple yet highly effective low maintenance armor doctrine. Every vessel uses modular riveted plating that can be repaired or replaced by the crew or even their autonomous Dusios drones, eliminating the need for a shipyard. They have perfected this armor system, allowing the segmented plating to maintain structural integrity without introducing the weaknesses normally associated with such armor.
+
+Reduces supply cost of the ship, the repair time of the ship after combat, as well as the turrets and engines during combat by %s and allows the Dusios drone to repair all ships with this hullmod mid-combat.",Reduces supply cost of the ship and repair time by %s and allows in-combat repairs.,,graphics/triceti/hullmods/riveted_plating.png
+Amplified Weapon Capacitors,triceti_amplified_weapon_capacitors,,,,,"offensive, no_drop, weapons, special",Weapons,,FALSE,FALSE,FALSE,0,0,0,0,auwennja.triceti.hullmods.triceti_amplified_weapon_capacitors,"Cetudan engineers are masters of energy manipulation but they have a tendency to supercharge their systems. Their weapon capacitors have unique benefits from this.
+
+Increased turret speed by %s, reduced weapon recoil by %s and improved beam damage by %s at the cost of destroying targeting systems of missiles.","Increases turret speed by %s, reduces recoil by %s and improves beam damage by %s. Disables missile targeting.",,graphics/triceti/hullmods/amplified_weapon_capacitors.png
+Energy Recirculation Network,triceti_energy_recirculation_network,,,,,"defensive, no_drop, shields, reqShields","Defenses, Shields",,FALSE,FALSE,FALSE,0,0,0,0,auwennja.triceti.hullmods.triceti_energy_recirculation_network,Expertly made flux conduits and electronics on board increase the venting speed by %s and the shield efficiency by %s.,Increases venting speed by %s and shield efficiency by %s.,,graphics/triceti/hullmods/energy_recirculation_network.png
+Myosynth,triceti_myosynth,,,,,no_drop,"Logistics, Special",,FALSE,FALSE,FALSE,0,0,0,0,auwennja.triceti.hullmods.triceti_myosynth,"Internal structures and machinery in this ship are made from Myosynth, a synthetic musculature. Its metabolism is capable of doing menial tasks by itself. In extreme situations, it requires additional biofuel and if not supplied, it starts consuming crew or individuals connected to the ship frame.
+
+Reduces the skeleton crew requirement by %s but increases crew casualty by %s.",Ship heals %s hull per second when damaged.,,graphics/triceti/hullmods/myosynth.png
+Fibrosteel,triceti_fibrosteel,,,,,"defensive, no_drop",Defenses,,FALSE,FALSE,FALSE,0,0,0,0,auwennja.triceti.hullmods.triceti_fibrosteel,"This ship's hull is made from an organically grown metal called Fibrosteel. Due to its physical properties, it cannot be combined with sophisticated armor plating. However, it can regenerate physical damage quickly.
+
+In combat, the ship heals %s per second when damaged.",Reduces the skeleton crew requirement by %s but increases crew casualty by %s.,,graphics/triceti/hullmods/fibrosteel.png
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,triceti_cetevska_arm_movement,,,,,,,,FALSE,FALSE,TRUE,0,0,0,0,auwennja.triceti.hullmods.triceti_cetevska_arm_movement,,,,

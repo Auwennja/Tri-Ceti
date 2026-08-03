@@ -1,0 +1,57 @@
+{
+  "hullName": "Dusios",
+  "hullId": "triceti_dusios",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/triceti/ships/Cetora/Dusios.png",
+  "style": "MIDLINE",
+  "height": 13,
+  "width": 14,
+  "center": [7, 6.5],
+  "collisionRadius": 13,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 12.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [6.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-6.5, 1.5],
+      "length": 5.5,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-6.5, -1.5],
+      "length": 5.5,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    7, 1.5,
+    5.5, 5,
+    3.5, 7.5,
+    0, 7.5,
+    -3.5, 6,
+    -6.5, 2,
+    -6.5, -2,
+    -3.5, -6,
+    0, -7.5,
+    3.5, -7.5,
+    5.5, -5,
+    7, -1.5
+  ]
+}

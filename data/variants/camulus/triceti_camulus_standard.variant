@@ -1,0 +1,84 @@
+{
+  "variantId": "triceti_camulus_standard",
+  "hullId": "triceti_camulus",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 19,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0021": "plasma",
+        "WS0022": "plasma",
+        "WS0023": "railgun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0028": "triceti_mitra",
+        "WS0029": "triceti_mitra",
+        "WS0030": "triceti_mitra",
+        "WS0031": "triceti_mitra"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "railgun",
+        "WS0010": "railgun",
+        "WS0011": "railgun",
+        "WS0012": "railgun",
+        "WS0019": "railgun",
+        "WS0020": "railgun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightdualmg",
+        "WS0002": "lightdualmg",
+        "WS0007": "lightdualmg",
+        "WS0008": "lightdualmg",
+        "WS0017": "lightdualmg",
+        "WS0018": "lightdualmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "pdburst",
+        "WS0004": "pdburst"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "flak",
+        "WS0006": "flak"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "hammer_single",
+        "WS0014": "hammer_single",
+        "WS0015": "hammer_single",
+        "WS0016": "hammer_single"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

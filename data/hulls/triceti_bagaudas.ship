@@ -1,0 +1,149 @@
+{
+  "hullName": "Bagaudas",
+  "hullId": "triceti_bagaudas",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/triceti/ships/Cetora/Bagaudas.png",
+  "style": "MIDLINE",
+  "height": 122,
+  "width": 92,
+  "center": [46, 61],
+  "collisionRadius": 81,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 80.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "triceti_adaptive_sensor_suite",
+    "triceti_riveted_plating"
+  ],
+  "builtInWeapons": {
+    "WS0007": "triceti_cetoran_deco_engine"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 203,
+      "angle": -80,
+      "locations": [-11, -27]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 203,
+      "angle": 80,
+      "locations": [-11, 27]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [52, -27]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [52, 27]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [56, -12]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [56, 12]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [54, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 199,
+      "angle": 0,
+      "locations": [6, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-57, 19],
+      "length": 34,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-57, -19],
+      "length": 34,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-51, 6.5],
+      "length": 22.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-51, -6.5],
+      "length": 22.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    61.5, 17,
+    57.5, 33.5,
+    33, 37,
+    10, 28,
+    -2, 35.5,
+    -31, 47,
+    -48.5, 31,
+    -56.5, 24.5,
+    -60.5, 2.5,
+    -60.5, -2.5,
+    -56.5, -24.5,
+    -48.5, -31,
+    -31, -47,
+    -2, -35.5,
+    10, -28,
+    33, -37,
+    57.5, -33.5,
+    61.5, -17
+  ]
+}

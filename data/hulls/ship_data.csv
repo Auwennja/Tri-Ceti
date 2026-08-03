@@ -1,0 +1,37 @@
+name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,c/s,c/f,f/s,f/f,crew/s,crew/f,hints,tags,logistics n/a reason,codex variant id,rarity,breakProb,minPieces,maxPieces,travel drive,number
+Dusios,triceti_dusios,,Cetora,,,600,250,400,,100,0,,200,200,200,80,160,60,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,,,,cetora,,,,0,,,,1201
+Mita,triceti_mita,,Cetudan,,,250,10,200,,50,0,,325,400,300,150,300,10,FRONT,,360,0,1,,,0,0,,,,,,,,,,,,,,,,,,,,cetudan,,,,0,,,,1202
+Saya,triceti_saya,,Cetudan,,,500,25,600,,50,0,,160,160,130,40,120,40,FRONT,,360,0,1,,,1,1,,,,,,,,,,,,,,,,,,,,cetudan,,,,0,,,,1203
+Tanpakuseki,triceti_tanpakuseki,,Cetudan,flarelauncher_fighter,,600,50,800,,100,0,,130,130,100,90,180,50,FRONT,,360,0,0.8,,,1,1,,,,,,,,,,,,,,,,,,,,cetudan,,,,0,,,,1204
+Robe,triceti_robe,,Cetevska,,,350,25,150,,50,0,,300,400,400,180,360,10,FRONT,,60,0,1,,,0,0,,,,,,,,,,,,,,,,,,,,cetevska,,,,0,,,,1206
+Sadlo,triceti_sadlo,,Cetevska,flarelauncher_fighter,,850,400,600,,100,0,,130,75,75,40,80,100,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,,,,cetevska,,,,0,,,,1207
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Biformis,triceti_biformis,Frigate,Unknown,maneuveringjets,6,3000,400,2200,,300,40,,135,110,110,60,120,250,FRONT,,120,0.4,1,,,10,20,40,20,1,20,10,15000,10,10,300,0.25,10,10,,,,,,,,ind,,,,0.4,2,2,,1208
+Wulfaz,triceti_wulfaz,Frigate,Cetora,maneuveringjets,8,2800,350,2500,,200,55,,160,140,140,60,120,220,FRONT,,150,0.4,1,,,10,15,40,30,1,30,10,16000,10,10,180,0.25,12,12,,,,,,,,"limited_tooltip_if_locked, bp_cetora, cetora",,,,0.4,2,2,,1209
+Bagaudas,triceti_bagaudas,Heavy Frigate,Cetora,maneuveringjets,10,3500,500,2800,,350,60,,135,120,120,60,120,350,FRONT,,120,0.4,1,,,10,20,50,30,1,30,10,28000,10,10,300,0.25,15,15,,,,,,,,"limited_tooltip_if_locked, bp_cetora, cetora",,,,0.4,2,2,,1210
+Bekos,triceti_bekos,Drone Tender,Cetora,maneuveringjets,10,3000,400,2200,,300,45,1,130,120,120,60,120,300,FRONT,,120,0.4,1,,,15,40,60,60,1,60,10,25000,10,10,240,0.25,14,14,,,,,,,,"limited_tooltip_if_locked, bp_cetora, cetora",,,,0.4,2,2,,1211
+Kumo,triceti_kumo,Light Frigate,Cetudan,plasmajets,6,900,100,3500,,500,30,,190,200,180,90,270,150,FRONT,,360,0.4,1,,,0,0,20,20,1,20,11,18000,8,25,180,0.25,8,8,,,,,,,UNBOARDABLE,"limited_tooltip_if_locked, bp_cetudan, cetudan",,,,0.75,2,,,
+Hongik,triceti_hongik,Supership,Cetudan,temporalshell,15,1400,150,8000,,800,40,,150,130,100,90,120,200,FRONT,,360,0.4,1,,,5,15,40,30,1,30,11,62000,8,25,180,0.25,12,12,,,,,,,,"limited_tooltip_if_locked, bp_cetudan, cetudan",,,,0.75,2,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Lugus,triceti_lugus,Missile Drone,Cetora,forgevats,14,4500,600,6000,,300,35,,110,110,110,50,100,400,FRONT,,120,0.4,1,,,0,0,10,50,2,25,9,80000,8,10,300,0.25,20,20,,,,,,,UNBOARDABLE,"limited_tooltip_if_locked, bp_cetora, cetora",,,,0.4,2,2,,1220
+Sirom,triceti_sirom,Heavy Drone Tender,Cetora,maneuveringjets,20,5000,650,8000,,500,80,2,100,90,90,40,80,500,FRONT,,150,0.4,1,,,25,80,300,300,2,150,9,100000,8,10,420,0.25,25,25,,,,,,,,"limited_tooltip_if_locked, bp_cetora, cetora",,,,0.4,2,3,,1221
+Mir,triceti_mir,Freighter,Cetudan,microburn,5,2000,100,2400,,300,38,,80,70,50,15,15,350,FRONT,,360,0.3,1,,,0,0,300,150,2,75,10,36000,4,30,300,0.25,4,4,,,,,,,UNBOARDABLE,"limited_tooltip_if_locked, bp_cetudan, cetudan",,,,0.75,2,3,,1222
+Qinglong,triceti_qinglong,Light Carrier,Cetudan,reservewing,8,2500,150,4000,,450,60,1,80,70,50,25,25,350,FRONT,,360,0.3,1,,,20,40,40,40,2,20,10,55000,4,25,300,0.25,15,15,,,,,,,,"limited_tooltip_if_locked, bp_cetudan, cetudan",,,,0.75,2,3,,1223
+Genbu,triceti_genbu,Destroyer,Cetudan,highenergyfocus,10,3500,200,6500,,900,65,,100,90,60,30,60,450,FRONT,,360,0.3,1,,,20,30,40,80,2,40,10,45000,4,25,300,0.25,12,12,,,,,,,,"limited_tooltip_if_locked, bp_cetudan, cetudan",,,,0.75,2,3,,1224
+Ryugu,triceti_ryugu,Light Carrier,Cetudan,targetingfeed,14,3000,150,4500,,600,85,2,75,60,50,20,15,400,FRONT,,360,0.3,1,,,0,100,80,80,2,40,10,65000,4,25,300,0.25,18,18,,,,,,,UNBOARDABLE,"limited_tooltip_if_locked, bp_cetudan, cetudan",,,,0.75,2,3,,1225
+Ezyk,triceti_ezyk,Combat Freighter,Cetevska,burndrive,10,8000,50,3000,,350,60,1,60,50,40,18,15,600,FRONT,,120,0.4,1.1,,,20,80,350,100,2,50,9,60000,16,18,420,0.25,10,10,,,,,,,,"limited_tooltip_if_locked, bp_cetevska, cetevska",,,,0.2,2,2,,1226
+Gvezda,triceti_gvezda,Destroyer,Cetevska,combat_burn,19,10000,50,6000,,500,80,,70,60,50,30,30,600,FRONT,,120,0.4,1.1,,,30,30,100,40,2,20,9,100000,16,15,420,0.25,16,16,,,,,,,,"limited_tooltip_if_locked, bp_cetevska, cetevska",,,,0.2,2,2,,1227
+Rog,triceti_rog,Heavy Destroyer,Cetevska,ammofeed,18,12000,50,6500,,600,90,,55,50,40,30,20,700,FRONT,,120,0.4,1.1,,,40,40,150,50,2,25,9,120000,16,15,420,0.25,18,18,,,,,,,,"limited_tooltip_if_locked, bp_cetevska, cetevska",,,,0.2,2,2,,1228
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Nertos,triceti_nertos,Cruiser,Cetora,maneuveringjets,23,8000,900,10000,,600,135,,80,60,60,20,25,1800,FRONT,,180,0.4,1,,,150,300,200,300,4,75,9,180000,5,10,540,0.25,35,35,,,,,,,,"limited_tooltip_if_locked, bp_cetora, cetora",,,,0.4,2,3,,1230
+Koren,triceti_koren,Combat Freighter,Cetevska,burndrive,20,15000,50,4000,,500,95,,40,30,20,12,12,2100,FRONT,,120,0.5,1.1,,,40,40,800,600,4,150,8,140000,12,15,480,0.25,18,18,,,,,,,,"limited_tooltip_if_locked, bp_cetevska, cetevska",,,,0.2,2,3,,1231
+Etro,triceti_etro,Heavy Cruiser,Cetevska,ammofeed,35,25000,50,9000,,800,140,,45,40,30,12,12,2800,FRONT,,120,0.5,1.1,,,80,80,150,200,5,40,8,340000,12,15,540,0.25,25,25,,,,,,,,"limited_tooltip_if_locked, bp_cetevska, cetevska",,,,0.2,2,3,,1232
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Camulus,triceti_camulus,Battlecruiser,Cetora,ammofeed,35,12000,1000,15000,,900,240,,55,40,40,12,12,3000,FRONT,,180,0.4,1,,,300,550,300,400,10,40,8,600000,5,10,720,0.25,60,60,,,,,,,,"limited_tooltip_if_locked, bp_cetora, cetora",,,,0.4,2,4,,1240
+Cheondo,triceti_cheondo,Battlecarrier,Cetudan,microburn,40,8000,250,30000,,1800,280,5,60,50,40,5,5,3000,FRONT,,360,0.25,1,,,0,600,250,250,10,25,8,800000,2,25,600,0.25,60,60,,,,,,,UNBOARDABLE,"limited_tooltip_if_locked, bp_cetudan, cetudan",,,,0.75,3,5,,1241
+Mati,triceti_mati,Battleship,Cetevska,burndrive,50,40000,50,25000,,1400,290,2,40,30,20,7,10,4000,FRONT,,120,0.4,1.2,,,250,250,400,300,10,30,7,1000000,8,15,720,0.25,35,35,,,,,,,SHIP_WITH_MODULES,"limited_tooltip_if_locked, bp_cetevska, cetevska",,,,0.2,2,3,,1242
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Myosynth Arm,triceti_cetevska_arm_L,,,,0,1000,50,0,,0,0,,50,50,50,50,50,100,NONE,,,,,,,,,,,,,,,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",module_no_status_bar,,,,1,2,2,,1243
+Myosynth Arm,triceti_cetevska_arm_R,,,,0,1000,50,0,,0,0,,50,50,50,50,50,100,NONE,,,,,,,,,,,,,,,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",module_no_status_bar,,,,1,2,2,,1244

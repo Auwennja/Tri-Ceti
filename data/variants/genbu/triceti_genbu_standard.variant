@@ -1,0 +1,54 @@
+{
+  "variantId": "triceti_genbu_standard",
+  "hullId": "triceti_genbu",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 12,
+  "fluxVents": 15,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "auxiliarythrusters"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "taclaser",
+        "WS0004": "taclaser",
+        "WS0005": "atropos_single",
+        "WS0006": "atropos_single",
+        "WS0007": "ionbeam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lrpdlaser",
+        "WS0002": "lrpdlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "phasecl",
+        "WS0009": "phasecl"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

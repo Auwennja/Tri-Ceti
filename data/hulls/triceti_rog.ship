@@ -1,0 +1,171 @@
+{
+  "hullName": "Rog",
+  "hullId": "triceti_rog",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/triceti/ships/Cetevska/Rog.png",
+  "style": "MIDLINE",
+  "height": 158,
+  "width": 134,
+  "center": [67, 79],
+  "collisionRadius": 102,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 101.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "triceti_fibrosteel",
+    "triceti_myosynth"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 157,
+      "angle": -112,
+      "locations": [-25, -32]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 157,
+      "angle": 112,
+      "locations": [-25, 32]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [61, -54]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [61, 54]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [68, -35]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [68, 35]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": -90,
+      "locations": [37.5, -19.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": 90,
+      "locations": [37.5, 19.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [71, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-61, -28],
+      "length": 19,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-61, 28],
+      "length": 19,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-56, -40],
+      "length": 19,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-56, 40],
+      "length": 19,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-79, -0],
+      "length": 49.5,
+      "width": 31,
+      "angle": 180,
+      "contrailSize": 31,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    80.5, 7,
+    79, 25.5,
+    69.5, 44,
+    69.5, 58.5,
+    59, 67,
+    42.5, 68,
+    25, 51,
+    4, 50,
+    -31.5, 56.5,
+    -51, 47.5,
+    -63, 39,
+    -67, 26,
+    -79, 13.5,
+    -79, -13.5,
+    -67, -26,
+    -63, -39,
+    -51, -47.5,
+    -31.5, -56.5,
+    4, -50,
+    25, -51,
+    42.5, -68,
+    59, -67,
+    69.5, -58.5,
+    69.5, -44,
+    79, -25.5,
+    80.5, -7
+  ]
+}

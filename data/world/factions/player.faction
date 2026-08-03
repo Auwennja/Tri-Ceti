@@ -1,0 +1,16 @@
+{
+	"portraits":{
+		"standard_male":[
+			"graphics/triceti/portraits/belenos.png",
+			"graphics/triceti/portraits/kremy.png"
+		],
+		"standard_female":[
+			"graphics/triceti/portraits/auwennja.png",
+			"graphics/triceti/portraits/pisenica.png",
+			"graphics/triceti/portraits/tavorin.png"
+			
+		]
+	}
+}
+
+

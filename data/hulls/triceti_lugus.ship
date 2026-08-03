@@ -1,0 +1,214 @@
+{
+  "hullName": "Lugus",
+  "hullId": "triceti_lugus",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/triceti/ships/Cetora/Lugus.png",
+  "style": "MIDLINE",
+  "height": 95,
+  "width": 111,
+  "center": [55.5, 47.5],
+  "collisionRadius": 72,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 71,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "ecm",
+    "triceti_riveted_plating",
+    "hiressensors"
+  ],
+  "builtInWeapons": {
+    "WS0003": "triceti_mitra",
+    "WS0004": "triceti_mitra",
+    "WS0005": "triceti_mitra",
+    "WS0006": "triceti_mitra",
+    "WS0007": "triceti_mitra",
+    "WS0008": "triceti_mitra",
+    "WS0009": "triceti_mitra",
+    "WS0010": "triceti_mitra",
+    "WS0011": "triceti_mitra",
+    "WS0012": "triceti_mitra",
+    "WS0013": "triceti_mitra",
+    "WS0014": "triceti_mitra"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 137,
+      "angle": 133.5,
+      "locations": [-17.5, 25.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 137,
+      "angle": -133.5,
+      "locations": [-17.5, -25.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [22.5, 35]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [22.5, -35]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [22.5, -24]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [22.5, 24]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [22.5, -13]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [22.5, 13]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [31.5, -13]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [31.5, 13]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [31.5, -24]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [31.5, 24]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [31.5, -35]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [31.5, 35]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-39.5, 20],
+      "length": 43,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-39.5, -20],
+      "length": 43,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-30.5, 31],
+      "length": 43.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-30.5, -31],
+      "length": 43.5,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    49, 1.5,
+    34, 11,
+    34, 38.5,
+    39.5, 49.5,
+    38, 56.5,
+    -31.5, 52,
+    -26, 37,
+    -48, 11.5,
+    -48, -11.5,
+    -26, -37,
+    -31.5, -52,
+    38, -56.5,
+    39.5, -49.5,
+    34, -38.5,
+    34, -11,
+    49, -1.5
+  ]
+}

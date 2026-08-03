@@ -1,0 +1,89 @@
+{
+  "hullName": "Sadlo",
+  "hullId": "triceti_sadlo",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/triceti/ships/Cetevska/Sadlo.png",
+  "style": "LOW_TECH",
+  "height": 26,
+  "width": 29,
+  "center": [14.5, 13],
+  "collisionRadius": 20.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 20,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [12, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -113,
+      "locations": [0, -8.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 113,
+      "locations": [0, 8.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-12, -4],
+      "length": 18.173218,
+      "width": 9.536071,
+      "angle": -169.5,
+      "contrailSize": 9.536071,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-12, 4],
+      "length": 18.173218,
+      "width": 9.536071,
+      "angle": 169.5,
+      "contrailSize": 9.536071,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-8.5, -10],
+      "length": 13.435029,
+      "width": 7.071068,
+      "angle": -135,
+      "contrailSize": 7.071068,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-8.5, 10],
+      "length": 13.435029,
+      "width": 7.071068,
+      "angle": 135,
+      "contrailSize": 7.071068,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    13.5, 12,
+    10.5, 14,
+    1.5, 10,
+    -7, 12.5,
+    -13, 6,
+    -13, -6,
+    -7, -12.5,
+    1.5, -10,
+    10.5, -14,
+    13.5, -12
+  ]
+}

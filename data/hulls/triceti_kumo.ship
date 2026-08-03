@@ -1,0 +1,65 @@
+{
+  "hullName": "Kumo",
+  "hullId": "triceti_kumo",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/triceti/ships/Cetudan/Kumo.png",
+  "style": "HIGH_TECH",
+  "height": 62,
+  "width": 56,
+  "center": [28, 31],
+  "collisionRadius": 38.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 38,
+  "viewOffset": 0,
+  "builtInMods": [
+    "triceti_amplified_weapon_capacitors",
+    "automated",
+    "triceti_energy_recirculation_network"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 0,
+      "locations": [-7, -22]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": -0,
+      "locations": [-7, 22]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-25, -0],
+      "length": 27,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    32.5, 7,
+    14, 15.5,
+    -1, 15,
+    1.5, 26.5,
+    -5, 29.5,
+    -24, 28,
+    -33.5, 11.5,
+    -33.5, -11.5,
+    -24, -28,
+    -5, -29.5,
+    1.5, -26.5,
+    -1, -15,
+    14, -15.5,
+    32.5, -7
+  ]
+}

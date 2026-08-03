@@ -1,0 +1,5 @@
+id,name,order,tier,reqPoints,reqPointsPerExtraSkill,description,author,combat officer,admiral,admin,tags,icon
+,,,,,,,,,,,,
+triceti_NLI_skill,Neural Logistics Interface,12001,0,,,,,,,,npc_only ,graphics/triceti/icons/backgrounds/NLI.png
+triceti_RA_skill,Reflex Accelerator,12002,0,,,,,,,,npc_only ,graphics/triceti/icons/backgrounds/RA.png
+triceti_BG_skill,Biogenesis,12003,0,,,,,,,,npc_only ,graphics/triceti/icons/backgrounds/BG.png

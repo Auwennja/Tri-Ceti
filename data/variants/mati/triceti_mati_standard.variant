@@ -1,0 +1,92 @@
+{
+  "variantId": "triceti_mati_standard",
+  "hullId": "triceti_mati",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 19,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "auxiliarythrusters",
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "mark9",
+        "WS0014": "mark9"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "hephag",
+        "WS0012": "hephag"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0025": "locust"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "lightdualac",
+        "WS0008": "lightdualac",
+        "WS0009": "lightdualac",
+        "WS0010": "lightdualac",
+        "WS0017": "lightdualac",
+        "WS0018": "lightdualac",
+        "WS0019": "lightdualac",
+        "WS0020": "lightdualac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "lightdualmg",
+        "WS0006": "lightdualmg",
+        "WS0027": "lightdualmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "lightmortar",
+        "WS0016": "lightmortar"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0026": "flak"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0001": "triceti_cetevska_arm_R_standard"
+    },
+    {
+      "WS0003": "triceti_cetevska_arm_R_standard"
+    },
+    {
+      "WS0002": "triceti_cetevska_arm_L_standard"
+    },
+    {
+      "WS0004": "triceti_cetevska_arm_L_standard"
+    }
+  ],
+  "wings": []
+}

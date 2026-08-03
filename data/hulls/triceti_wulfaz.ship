@@ -1,0 +1,144 @@
+{
+  "hullName": "Wulfaz",
+  "hullId": "triceti_wulfaz",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/triceti/ships/Cetora/Wulfaz.png",
+  "style": "MIDLINE",
+  "height": 99,
+  "width": 70,
+  "center": [35, 49.5],
+  "collisionRadius": 69.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 69,
+  "viewOffset": 0,
+  "builtInMods": [
+    "triceti_adaptive_sensor_suite",
+    "triceti_riveted_plating"
+  ],
+  "builtInWeapons": {
+    "WS0007": "triceti_cetoran_deco_engine",
+    "WS0008": "triceti_cetoran_deco_engine"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 207,
+      "angle": -90,
+      "locations": [-26.5, -11]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 207,
+      "angle": 90,
+      "locations": [-26.5, 11]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [5.5, -26]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [5.5, 26]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 208,
+      "angle": 0,
+      "locations": [-13, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [40.5, -0]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -45,
+      "locations": [38, -17]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 45,
+      "locations": [38, 17]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-47.5, 13],
+      "length": 25,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-47.5, -13],
+      "length": 25,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-49.5, -0],
+      "length": 36,
+      "width": 17,
+      "angle": 180,
+      "contrailSize": 17,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    50.5, 10,
+    40.5, 17,
+    24, 24.5,
+    11, 32.5,
+    -16.5, 31,
+    -26.5, 24,
+    -47.5, 35.5,
+    -49, 31,
+    -47.5, 14.5,
+    -50, 4,
+    -50, -4,
+    -47.5, -14.5,
+    -49, -31,
+    -47.5, -35.5,
+    -26.5, -24,
+    -16.5, -31,
+    11, -32.5,
+    24, -24.5,
+    40.5, -17,
+    50.5, -10
+  ]
+}

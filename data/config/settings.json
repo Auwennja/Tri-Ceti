@@ -1,0 +1,29 @@
+{
+	"designTypeColors":{
+		"Cetora":[150,150,130,255],
+		"Cetudan":[130,130,180,255],
+		"Cetevska":[162,168,125,255]
+	},
+	"graphics":{
+		"blueprint_packages":{
+			"triceti_cetora_package":"graphics/triceti/icons/cargo/bp_cetora.png",
+			"triceti_cetudan_package":"graphics/triceti/icons/cargo/bp_cetudan.png",
+			"triceti_cetevska_package":"graphics/triceti/icons/cargo/bp_cetevska.png"
+		},
+		"illustrations":{
+			"reda":"graphics/triceti/illustrations/reda.jpg",
+			"onpo":"graphics/triceti/illustrations/onpo.jpg",
+			"kama":"graphics/triceti/illustrations/kama.jpg",
+			"utroba":"graphics/triceti/illustrations/utroba.jpg",
+			"bar_reda":"graphics/triceti/illustrations/bar_reda.jpg",
+			"bar_onpo":"graphics/triceti/illustrations/bar_onpo.jpg",
+			"bar_kama":"graphics/triceti/illustrations/bar_kama.jpg",
+			"bar_utroba":"graphics/triceti/illustrations/bar_utroba.jpg",
+			"bar_cetora":"graphics/triceti/illustrations/bar_cetora.jpg",
+			"bar_cetudan":"graphics/triceti/illustrations/bar_cetudan.jpg",
+			"bar_cetevska":"graphics/triceti/illustrations/bar_cetevska.jpg"
+		},
+		"characters":{
+		}
+	}
+}

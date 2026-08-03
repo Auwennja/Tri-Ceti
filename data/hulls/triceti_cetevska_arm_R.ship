@@ -1,0 +1,41 @@
+{
+  "hullName": "",
+  "hullId": "triceti_cetevska_arm_R",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/triceti/ships/deco/cetevska_arm_R.png",
+  "style": "MIDLINE",
+  "height": 31,
+  "width": 15,
+  "center": [10.5, 4.5],
+  "collisionRadius": 27.5,
+  "shieldCenter": [11, 3],
+  "shieldRadius": 16,
+  "viewOffset": 0,
+  "builtInMods": [
+    "always_detaches",
+    "reduced_explosion"
+  ],
+  "builtInWeapons": {
+    "WS0001": "triceti_cetevska_hand_R"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 20,
+      "angle": 45,
+      "locations": [22, 6]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    11.5, 4.5,
+    -4.5, 4.5,
+    -4.5, -4.5,
+    11.5, -4.5,
+    30, 3.5,
+    22.5, 12.5
+  ]
+}

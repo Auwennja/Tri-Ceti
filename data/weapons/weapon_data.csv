@@ -1,0 +1,13 @@
+name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
+Cetoran Salvage Beam (Fighter),triceti_cetoran_beam,1,,0,400,200,,,0,20,0,,,,ENERGY,,100,0.25,0.5,1,4,0,0,0,0,3200,,,,,,,,"energy14, beam10",,,,General (Fighter),,,,,,,,,,1212
+Mitra,triceti_mitra,1,,0,1200,,150,,5,30,0,60,,,FRAGMENTATION,0,,0,5,5,0.1,0,0,0,0,,350,100,8,60,,,"ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","no_drop, no_drop_salvage",,,,Anti Small Craft,Fast,Excellent,,,,,,,,1213
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,triceti_cetoran_deco_engine,0,,1,120,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,1299 Deco
+,triceti_cetoran_deco_engine_L,0,,1,120,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,1299 Deco 2
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,triceti_cetevska_fang_L,0,,1,350,0,,,,10,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,1291
+,triceti_cetevska_fang_R,0,,1,350,0,,,,10,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,1292
+,triceti_cetevska_hand_L,0,,1,600,0,,,,10,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,1293
+,triceti_cetevska_hand_R,0,,1,600,0,,,,10,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,1294
+,triceti_cetevska_half_hand_L,0,,1,600,0,,,,10,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,1295
+,triceti_cetevska_half_hand_R,0,,1,600,0,,,,10,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,1296

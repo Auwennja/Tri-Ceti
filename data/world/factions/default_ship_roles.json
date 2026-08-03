@@ -1,0 +1,105 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{
+		"triceti_biformis_standard":1,
+		"triceti_wulfaz_attack":10,
+		"triceti_bagaudas_standard":5,
+
+		"triceti_kumo_standard":10,
+		"triceti_genbu_standard":5,
+		"triceti_hongik_standard":1,
+
+		"fallback":{"combatSmall":1},
+	},
+	"combatSmall":{
+		"triceti_wulfaz_attack":10,
+		"triceti_wulfaz_strike":10,
+		"triceti_bagaudas_attack":10,
+		
+		"triceti_genbu_standard":10,
+		"triceti_genbu_attack":5,
+
+		"fallback":{"combatMedium":0.5},
+	},
+	"combatMedium":{
+		"triceti_bekos_support":3,
+		"triceti_lugus_standard":5,
+		"triceti_nertos_standard":1,
+
+		"triceti_gvezda_standard":1,
+		"triceti_rog_attack":10,
+
+		"fallback":{"combatSmall":1},
+	},
+	"combatLarge":{
+		"triceti_sirom_support":1,
+		"triceti_lugus_standard":10,
+		"triceti_nertos_standard":10,
+
+		"triceti_etro_standard":8,
+
+		"fallback":{"combatMedium":1},
+	},
+	"combatCapital":{
+		"triceti_camulus_standard":8,
+		"triceti_camulus_escort":4,
+
+		"triceti_mati_standard":6,
+
+		"fallback":{"combatLarge":1},
+	},
+
+	
+	# hybrid ships with good combat and cargo capacity
+	"combatFreighterSmall":{
+		"triceti_bekos_support":10,
+
+		"fallback":{"freighterSmall":1},
+	},
+	"combatFreighterMedium":{
+		"triceti_ezyk_standard":10,
+
+		"fallback":{"combatFreighterSmall":1},
+	},
+	"combatFreighterLarge":{
+		"triceti_koren_standard":4,
+		"fallback":{"combatFreighterMedium":1},
+	},
+
+	# carriers
+	"carrierSmall":{
+		"triceti_qinglong_standard":8,
+		"triceti_qinglong_support":4,
+		"triceti_ryugu_strike":4,
+
+		"fallback":{"carrierMedium":0.5},
+		"fallback2":{"carrierLarge":0.25},
+	},
+
+	"carrierLarge":{
+		"triceti_cheondo_strike":10,
+		
+		"fallback":{"carrierMedium":1},
+		"fallback2":{"carrierSmall":1},
+	},
+
+
+	# freighters and such
+	"freighterSmall":{
+		"triceti_mir_standard":10,
+		"fallback":{"freighterMedium":0.5},
+		"fallback2":{"freighterLarge":0.25},
+	},
+	"freighterMedium":{
+		"fallback":{"freighterSmall":1},
+		"fallback2":{"freighterLarge":0.5},
+	},
+	
+
+	# utility ships
+	"utility":{
+		"triceti_bekos_support":10,
+		"triceti_sirom_support":1,
+	},
+}

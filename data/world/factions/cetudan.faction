@@ -1,0 +1,171 @@
+{
+	id:"cetudan",
+	"color":[130,130,180,255],
+	"displayName":"Cetudan",
+	"displayNameWithArticle":"Cetudan",
+	"displayNameLong":"Cetudan",
+	"displayNameLongWithArticle":"Cetudan",
+	"displayNameIsOrAre":"is",
+	"logo":"graphics/triceti/factions/cetudan.png",
+	"crest":"graphics/triceti/factions/crest_cetudan.png",
+	"shipNamePrefix":"",
+	"shipNameSources":{
+		"JAPANESE":4,
+	},
+	"description":"No description yet.",
+	"names":{
+		"future":1,
+	},
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":[],
+		"hulls":[
+		],
+	},
+	"knownShips":{
+		"tags":["cetudan"],
+		"hulls":[
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+		],
+	},
+	"knownFighters":{
+		"tags":["cetudan"],
+		"fighters":[
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+		],
+	},
+	"knownWeapons":{
+		"tags":["ind", "independent", "he0"],
+		"weapons":[
+		],
+	},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+		],
+	},
+	"knownHullMods":{
+		"tags":["standard", "ind", "independent"],
+		"hullMods":[
+		],
+	},
+	"weaponSellFrequency":{
+	},
+	"fighterSellFrequency":{
+	},
+	"hullmodSellFrequency":{
+	},
+	"factionDoctrine":{
+		"warships":4,
+		"carriers":3,
+		"phaseShips":0,
+		
+		"officerQuality":1,
+		"shipQuality":2,
+		"numShips":4,
+		
+		"shipSize":3,
+		"aggression":2,
+		
+		"combatFreighterProbability":0.5,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0.5,				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":1,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.25,
+
+		"commanderSkillsShuffleProbability":1,
+		"commanderSkills":[
+			"crew_training",
+			"tactical_drills",
+			"officer_training",
+			"coordinated_maneuvers",
+			"electronic_warfare",
+			"fighter_uplink",
+			"carrier_group",
+			"flux_regulation",
+		],
+	},
+	"illegalCommodities":[
+	],
+	"portraits":{
+		"standard_male":[
+			"graphics/triceti/portraits/cetudan_m1.png",
+			"graphics/triceti/portraits/cetudan_m2.png",
+			"graphics/triceti/portraits/cetudan_m3.png",
+			"graphics/triceti/portraits/cetudan_m4.png",
+			"graphics/triceti/portraits/cetudan_m5.png",
+			"graphics/triceti/portraits/cetudan_m6.png",
+			"graphics/triceti/portraits/cetudan_m7.png",
+			"graphics/triceti/portraits/cetudan_m8.png",
+			"graphics/triceti/portraits/cetudan_m9.png",
+			"graphics/triceti/portraits/cetudan_m10.png"
+		],
+		"standard_female":[
+			"graphics/triceti/portraits/cetudan_f1.png",
+			"graphics/triceti/portraits/cetudan_f2.png",
+			"graphics/triceti/portraits/cetudan_f3.png",
+			"graphics/triceti/portraits/cetudan_f4.png",
+			"graphics/triceti/portraits/cetudan_f5.png",
+			"graphics/triceti/portraits/cetudan_f6.png"
+		],
+	},
+	"voices":{
+		"LOW":{
+			"business":10,
+		},
+		"MEDIUM":{
+			"business":10,
+			"official":5,
+		},
+		"HIGH":{
+			"business":10,
+			"official":10,
+		},
+	},
+	"custom":{
+		"decentralized":false,
+		"allowsTransponderOffTrade":true,
+		"offersCommissions":false,
+		"engagesInHostilities":true,
+		"buysAICores":true,
+		"AICoreValueMult":5,
+		"AICoreRepMult":1,
+		"buysSurveyData":true,
+		"hostilityImpactOnGrowth":true,
+		"caresAboutAtrocities":false,
+		"punitiveExpeditionData":{
+			"vsCompetitors":false,
+			"vsFreePort":false,
+			"canBombard":false,
+			"territorial":true,
+		},
+		"simulatorData":{
+			"showInSimulator":true,
+		},
+	},
+	"fleetTypeNames":{
+		"mercScout":"Mercenary Scout",
+		"mercBountyHunter":"Bounty Hunter",
+		"mercPrivateer":"Privateer",
+		"mercPatrol":"Mercenary Patrol",
+		"mercArmada":"Mercenary Company",
+	},
+},	

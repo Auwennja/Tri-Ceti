@@ -1,0 +1,126 @@
+{
+  "hullName": "Qinglong",
+  "hullId": "triceti_qinglong",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/triceti/ships/Cetudan/Qinglong.png",
+  "style": "HIGH_TECH",
+  "height": 137,
+  "width": 88,
+  "center": [44, 68.5],
+  "collisionRadius": 78.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 78,
+  "viewOffset": 0,
+  "builtInMods": [
+    "triceti_amplified_weapon_capacitors",
+    "triceti_energy_recirculation_network"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 205,
+      "angle": -38.5,
+      "locations": [11.5, -18]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 205,
+      "angle": 38.5,
+      "locations": [11.5, 18]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 175,
+      "angle": -76.5,
+      "locations": [20.5, -34]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 175,
+      "angle": 76.5,
+      "locations": [20.5, 34]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 90,
+      "locations": [-10.5, 16.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": -90,
+      "locations": [-10.5, -16.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-68, 14],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-68, -14],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-65, 7],
+      "length": 15,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-65, -7],
+      "length": 15,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    71.5, 17.5,
+    33.5, 43.5,
+    17, 46,
+    4, 31.5,
+    -10.5, 27.5,
+    -17, 44.5,
+    -46.5, 45,
+    -70, 16,
+    -70, -16,
+    -46.5, -45,
+    -17, -44.5,
+    -10.5, -27.5,
+    4, -31.5,
+    17, -46,
+    33.5, -43.5,
+    71.5, -17.5
+  ]
+}

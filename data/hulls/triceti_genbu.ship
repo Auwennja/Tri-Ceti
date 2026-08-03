@@ -1,0 +1,156 @@
+{
+  "hullName": "Genbu",
+  "hullId": "triceti_genbu",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/triceti/ships/Cetudan/Genbu.png",
+  "style": "HIGH_TECH",
+  "height": 168,
+  "width": 90,
+  "center": [45, 84],
+  "collisionRadius": 92,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 91,
+  "viewOffset": 0,
+  "builtInMods": [
+    "triceti_amplified_weapon_capacitors",
+    "automated",
+    "triceti_energy_recirculation_network"
+  ],
+  "builtInWeapons": {
+    "WS0008": "phasecl",
+    "WS0009": "phasecl"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -90,
+      "locations": [4, -16]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 90,
+      "locations": [4, 16]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [69, -23]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [69, 23]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [7, -39]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [7, 39]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 291,
+      "angle": 0,
+      "locations": [45, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -90,
+      "locations": [-30, -19]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 90,
+      "locations": [-30, 19]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-76, 22.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-76, -22.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-77, 14.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-77, -14.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    87, 11.5,
+    75, 31,
+    60.5, 32,
+    -4.5, 48,
+    -40.5, 34,
+    -72.5, 31.5,
+    -85, 6.5,
+    -85, -6.5,
+    -72.5, -31.5,
+    -40.5, -34,
+    -4.5, -48,
+    60.5, -32,
+    75, -31,
+    87, -11.5
+  ]
+}

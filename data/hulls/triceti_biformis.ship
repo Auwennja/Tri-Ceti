@@ -1,0 +1,86 @@
+{
+  "hullName": "Biformis",
+  "hullId": "triceti_biformis",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/triceti/ships/Independent/Biformis.png",
+  "style": "MIDLINE",
+  "height": 110,
+  "width": 62,
+  "center": [31, 55],
+  "collisionRadius": 71,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 69,
+  "viewOffset": 0,
+  "builtInMods": [
+    "triceti_degraded_riveted_plating"
+  ],
+  "builtInWeapons": {
+    "WS0002": "triceti_cetoran_deco_engine"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [50, -12]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [50, 12]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [0, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [48, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-44.5, -6.5],
+      "length": 32.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-44.5, 6.5],
+      "length": 32.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    55.5, 19.5,
+    29.5, 28.5,
+    -20, 31.5,
+    -54, 2.5,
+    -54, -2.5,
+    -20, -31.5,
+    29.5, -28.5,
+    55.5, -19.5
+  ]
+}

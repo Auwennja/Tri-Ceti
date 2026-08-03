@@ -1,0 +1,200 @@
+{
+  "hullName": "Gvezda",
+  "hullId": "triceti_gvezda",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/triceti/ships/Cetevska/Gvezda.png",
+  "style": "MIDLINE",
+  "height": 159,
+  "width": 114,
+  "center": [57, 79.5],
+  "collisionRadius": 100.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 100,
+  "viewOffset": 0,
+  "builtInMods": [
+    "triceti_fibrosteel",
+    "triceti_myosynth"
+  ],
+  "builtInWeapons": {
+    "WS0009": "triceti_cetevska_fang_R",
+    "WS0010": "triceti_cetevska_fang_R",
+    "WS0011": "triceti_cetevska_fang_L",
+    "WS0012": "triceti_cetevska_fang_L"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": -90,
+      "locations": [-24.5, -37]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": 90,
+      "locations": [-24.5, 37]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [60.5, -37]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [60.5, 37]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [74.5, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 0,
+      "locations": [44.5, -0]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 217,
+      "angle": 180,
+      "locations": [-55.5, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 0,
+      "locations": [-19, -0]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 15,
+      "angle": 0,
+      "locations": [74, -19.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 15,
+      "angle": 0,
+      "locations": [74, -11.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 15,
+      "angle": 0,
+      "locations": [74, 19.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 15,
+      "angle": 0,
+      "locations": [74, 11.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-61.5, -27.5],
+      "length": 19,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-61.5, 27.5],
+      "length": 19,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-56.5, -40],
+      "length": 19,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-56.5, 40],
+      "length": 19,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-79.5, -0],
+      "length": 44,
+      "width": 29,
+      "angle": 180,
+      "contrailSize": 29,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    92, 27,
+    68, 36.5,
+    55, 46.5,
+    27, 37,
+    11.5, 41.5,
+    -2.5, 49,
+    -30, 59,
+    -51, 47.5,
+    -62, 39.5,
+    -69, 21,
+    -80, 12,
+    -80, -12,
+    -69, -21,
+    -62, -39.5,
+    -51, -47.5,
+    -30, -59,
+    -2.5, -49,
+    11.5, -41.5,
+    27, -37,
+    55, -46.5,
+    68, -36.5,
+    92, -27
+  ]
+}

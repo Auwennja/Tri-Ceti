@@ -1,0 +1,22 @@
+{
+  "variantId": "triceti_sadlo_fighter",
+  "hullId": "triceti_sadlo",
+  "displayName": "Sadlo Support Drone",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavyneedler"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

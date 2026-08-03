@@ -1,0 +1,33 @@
+{
+    "playableFaction":false,
+    "corvusCompatible":true,
+    "hostileToAll":2,
+    "enabledByDefault":true,
+	
+    "rebelFleetSuffix":"Deserters",
+
+	"disableDiplomacy":true,
+    "startRelationships":{ "player":-1, "independent":-1, "luddic_church":-1, "luddic_path":-1,"tritachyon":-1,"remnant":-1,"hegemony":-1, "persean":-1, "pirates":-1 },
+    "maxRelationships":{ "independent":-1, "luddic_church":-1, "luddic_path":-1, "tritachyon":-1,"remnant":-1, "hegemony":-1, "persean":-1, "pirates":-1 },
+    "noRandomizeRelations":true,
+	"morality":"evil",
+    
+    "defenceStations":[
+        {"ids":["orbitalstation", "battlestation", "starfortress"]}
+    ],
+
+    "allowAgentActions":false,
+    "allowPrisonerActions":false,
+    
+    "alignments":{
+	"technocratic":0.5,
+        "militarist":1,
+        "diplomatic":-1,
+        "ideological":1
+    },
+    "diplomacyTraits":["paranoid", "temperamental", "envious", "foreverwar"],
+    
+    "canInvade":true,
+
+    "dropPrisoners":false
+}

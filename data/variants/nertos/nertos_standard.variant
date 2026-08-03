@@ -1,0 +1,53 @@
+{
+  "variantId": "triceti_nertos_standard",
+  "hullId": "triceti_nertos",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 25,
+  "fluxVents": 6,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "auxiliarythrusters"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0014": "reaper",
+        "WS0015": "reaper"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "heavymauler",
+        "WS0006": "heavymauler",
+        "WS0007": "railgun",
+        "WS0008": "railgun",
+        "WS0009": "hveldriver",
+        "WS0010": "hveldriver"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "lightdualmg",
+        "WS0004": "lightdualmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "railgun",
+        "WS0002": "railgun"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

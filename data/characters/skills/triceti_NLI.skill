@@ -1,0 +1,23 @@
+{
+    "id":"triceti_NLI_skill",
+    "governingAptitude":"combat",
+    "compressHullmods":false,
+    "elite":false,
+    "effectGroups":[
+        {
+            "name":"Level 1",
+            "requiredSkillLevel":1,
+            "effectBasedOnLevel":false,
+            "effects":[
+                {
+                    "type":"CHARACTER_STATS",
+                    "script":"auwennja.triceti.campaign.skills.triceti_NLI_skill$Level1"
+                },
+                {
+                    "type":"SHIP",
+                    "script":"auwennja.triceti.campaign.skills.triceti_NLI_skill$Level1"
+                },
+            ]
+        },
+    ],
+}

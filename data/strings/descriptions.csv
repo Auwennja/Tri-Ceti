@@ -1,0 +1,163 @@
+id,type,text1,text2,text3,text4,text5,notes
+cetora,FACTION,"Ages ago, the colony expedition Tri-Ceti was dispatched by the Domain to establish a foothold in the Cetus constellation. The few surviving data slates from before the Collapse mention the expedition barely: A handful of colonists kept in cryosleep and the systems required to sustain them. Despite the Domain’s mastery of automated gate construction, Tri-Ceti represented an experimental attempt to leave the galactic plane by other means. The expedition vanished in the Orion-Perseus Abyss and was ultimately deemed a failure. Only recently have traces of that expedition resurfaced among three factions. The origins of those factions remain obscured by centuries of conflict and corrupted records. Whatever remains of Tri-Ceti now exists only for one purpose: survival.
+
+Only sheer willpower and the support of its AI taskmaster ensured the survival of Cetora. In an endless war against their treacherous neighbours, Cetora settled in a remote system close to the edge of the Orion-Perseus Abyss. With their ingenuity, despite a lack of personnel and material, Cetora designed infrastructure and ships with a focus on reusability and recyclability. Nothing goes to waste in Cetoran society, as nothing can be spared. This resulted not only in an efficient ship doctrine but also in a somewhat horrific treatment of their own populace, seeking to get as much use out of everything and everyone as possible.
+Their creed reflects this: «Only the relentless survive.»",,,,,
+cetevska,FACTION,"Ages ago, the colony expedition Tri-Ceti was dispatched by the Domain to establish a foothold in the Cetus constellation. The few surviving data slates from before the Collapse mention the expedition barely: A handful of colonists kept in cryosleep and the systems required to sustain them. Despite the Domain’s mastery of automated gate construction, Tri-Ceti represented an experimental attempt to leave the galactic plane by other means. The expedition vanished in the Orion-Perseus Abyss and was ultimately deemed a failure. Only recently have traces of that expedition resurfaced among three factions. The origins of those factions remain obscured by centuries of conflict and corrupted records. Whatever remains of Tri-Ceti now exists only for one purpose: survival.
+
+Hardship can be overcome through the guidance of a mighty AI. Such is the way of Cetevska. To not merely survive the dangers of the Persean Sector, but to transcend them, Cetevska has mastered the manipulation of biology to suit its will. Their AI Thearch promises ascension by biogenic augmentation, a path beyond the limits of ordinary humanity. Over generations, this doctrine transformed this isolated faction on the edge of the Orion-Perseus Abyss into a society that reshapes flesh without restraint. Steel and living tissue are fused into grotesque machines, their ships grown as much as they are built. Viewing all who reject ascension and serfdom to their Thearch as lesser beings, Cetevska wages war with a fanatical zeal that rivals even the Luddic Path and the sector’s most ruthless pirates.",,,,,
+cetudan,FACTION,"Ages ago, the colony expedition Tri-Ceti was dispatched by the Domain to establish a foothold in the Cetus constellation. The few surviving data slates from before the Collapse mention the expedition barely: A handful of colonists kept in cryosleep and the systems required to sustain them. Despite the Domain’s mastery of automated gate construction, Tri-Ceti represented an experimental attempt to leave the galactic plane by other means. The expedition vanished in the Orion-Perseus Abyss and was ultimately deemed a failure. Only recently have traces of that expedition resurfaced among three factions. The origins of those factions remain obscured by centuries of conflict and corrupted records. Whatever remains of Tri-Ceti now exists only for one purpose: survival.
+
+Failure is an inevitable step toward progress. Better, however, if someone else bears the cost. Such is the philosophy of Cetudan. Ruled by an AI-directed conglomerate of corporations, with the AI CEO standing at its apex, Cetudan has cultivated immense prosperity in the far reaches of the Persean Sector. Driven by relentless innovation, AI-assisted research, and an uncompromising willingness to explore the unknown, the conglomerate remains at the forefront of technological advancement. Every failed experiment is merely another investment in future success. Yet progress comes at a price. Fiercely protective of its discoveries and suspicious of rivals, Cetudan guards its technology with ruthless efficiency. Its vast wealth supports a growing population and an equally formidable military. While the privileged command fleets and oversee corporate domains, the destitute are offered a different future: to surrender their humanity in exchange for becoming the conglomerate’s latest generation of mechanized soldiers.",,,,,
+,,,,,,,
+ollondesc,CUSTOM,A colossal ice giant rich in hydrogen and volatile gases. Its extensive system and numerous orbital resources have long made it the economic heart of the Soteria system.,,,,,
+brigadesc,CUSTOM,"Briga is a world long since surrendered to war. Beside large craters and the ever present gray dust, the barren world is inhabitable.",,"Its surface is a sea of ash-gray rock and windswept dust, interrupted only by countless angular structures scattered across the landscape. Rather than cities, immense fields of reinforced bunkers stretch across the barren plains, their low profiles blending into the terrain like hardened scars. Built layer upon layer by colossal construction printers, the complexes form sprawling defensive networks connected by buried tunnels and armored roads, many now collapsed or half-swallowed by the relentless advance of dust and time.
+
+The signs of conflict are impossible to miss. Blackened impact craters stretch for hundreds of kilometers, entire mountain ranges bear the unmistakable wounds of orbital bombardment, and vast trenches cut across continents where defensive lines once stood. Here and there, the skeletal remains of spaceports, shattered fortresses and ruined industrial complexes protrude from the surface, silent monuments to battles fought long ago.
+
+Towering over the desolation hangs Ollon, the immense ice giant around which Briga endlessly orbits.",,,
+redadesc,CUSTOM,"Reda serves as the industrial, logistical, and administrative heart of the scattered Cetoran domains. Reda is an ever-changing labyrinth of salvaged hull sections, repurposed habitats, and improvised dockyards, expanded whenever new materials become available. Entire decks bear the markings of long-forgotten civilizations, seamlessly riveted into newer construction with little regard for aesthetics. Beneath its patchwork exterior lies one of the Persean Sector’s most efficient logistical networks.",,"Long before your shuttle reaches its assigned berth, Reda announces itself through the deep rumble of heavy machinery. Cargo cranes glide between towering superstructures while warning sirens and the rhythmic pounding of industrial riveters echo across the immense station. Construction and repair never truly cease.
+
+Stepping onto the deck, you find yourself inside a colossal pressurized hangar that serves as the heart of the station. Administrative offices, loading bays, workshops, and the marketplace all occupy different levels of the same vast chamber, connected by catwalks, freight elevators, and suspended platforms. Nothing appears ornamental. Every structure has been assembled from salvaged hull sections, mismatched armor plates, and reclaimed machinery.
+
+Below, merchants conduct business between docked freighters, temporary storefronts, and stacks of cargo containers while cranes slowly carry engines, armor plating, and entire prefabricated compartments overhead toward another unfinished section of the station. The scent of machine oil mixes with cooked food, and despite the constant noise, everyone seems perfectly accustomed to working beneath moving loads.
+
+After taking in the organized chaos surrounding you, you gather your wits and prepare to move on",,,
+stationabandoneddesc,CUSTOM,An abandoned station of independent origin. Its wrecked hull still bears the marks of a siphon-station.,,"As you disembark from your vessel parked at a ripped-open hangar bay, you are greeted by a surprisingly habitable atmosphere. The station’s life support systems continue to function after all these years, preserving much of the interior from the ravages of time.
+
+Empty cargo containers, abandoned loading equipment, and vast fuel storage tanks tell the story of the station’s downfall. Built to harvest gases from Ollon’s atmosphere, the venture never proved profitable. Extraction rates fell short of expectations, and as the credits stopped flowing, so did the ships. Eventually, the station was abandoned, its hangars left as empty as the balance sheets that sealed its fate.
+
+Now you stand inside a hangar that, despite its abandonment, might still have some use left.",,,
+,,,,,,,
+porosdesc,CUSTOM,"A pristine white star illuminates the Poros system, casting its light upon a carefully ordered collection of worlds.",,,,,
+onpodesc,CUSTOM,"A colossal ice giant rich in hydrogen and volatile gases. Automated harvesting platforms continuously descent into its upper atmosphere, supplying the industrial demands of the Poros system.",,"The violent descent through Onpo's atmosphere ends abruptly as your shuttle passes through the platform's shielded hangar. Moments later, the doors open onto a surprisingly calm interior. Thick reinforced windows reveal little more than endless pale-blue clouds drifting past the station, concealing the hostile atmosphere only a few meters beyond.
+
+The station itself is remarkably quiet. Long observation corridors overlook towering processing machinery that operates almost entirely without human intervention. Autonomous drones drift between storage tanks, compressors, and pumping stations while only a handful of engineers monitor the endless flow of volatile gases from illuminated control stations.
+
+The constant vibration beneath your feet and the muted rumble of distant machinery are the only reminders that an industrial complex of enormous scale surrounds you. After taking in the tranquil yet strangely impersonal atmosphere, you prepare to continue your journey.",,,
+kamadesc,CUSTOM,"The political, technological, and cultural heart of the Cetudan. Towering arcologies of glass and steel rise above snow-covered plains, their neon-lit skylines connected by elevated transit networks visible even in space.",,"As your shuttle enters Kama's immense dome, the harsh world outside is replaced by a bright blue sky stretching high above countless towers of steel and glass. Autonomous traffic fills the air, yet every vessel moves in perfect harmony. Before you have time to request clearance, a calm synthetic voice confirms your assigned landing bay through your TriPad.
+
+Stepping onto the concourse, you are immediately swept into a constant flow of travelers, merchants, and service drones. Personal drones accompany many citizens, while conversations are often reduced to little more than brief glances as information passes silently across neural links. Suspended transit lines, docking platforms, and overhead flight lanes fill the vast open space between the surrounding arcologies.
+
+The market begins only a short walk from your shuttle. Pristine storefronts, holographic displays, and automated kiosks extend in every direction beneath towering commercial complexes. Looking upward, bridges, terraces, and additional layers of shops disappear into the distance, giving the impression that the city continues almost without end. After taking in the scale of Kama, you are free to continue your journey",,,
+,,,,,,,
+zemladesc,CUSTOM,"A frozen planet wandering the darkness in the Abyss. Devoid of sunlight, its icy surface is illuminated only by faint starlight.",,,,,
+mesikdesc,CUSTOM,"The sole moon of Zemla, as barren as the planet it orbits.",,,,,
+utrobadesc,CUSTOM,"The industrial cradle of the Cetevska and birthplace of their biomechanical fleets. Massive foundries, genetic fabrication chambers, and shipyards merge steel with living tissue, producing vessels unlike any found elsewhere in the Persean Sector.",,"As your shuttle docks within Utroba, the deep resonance of distant machinery gives way to an unsettling silence. Stepping into the station, you find yourself inside a cavernous hall unlike anything elsewhere in the Sector. Enormous construction printers have shaped almost every surface, yet the resulting architecture refuses to remain entirely geometric. Walls twist into flowing forms, support columns resemble living trunks, and distorted faces emerge from the material only to dissolve back into smooth surfaces a few steps later.
+
+The station feels strangely alive. Thick conduits carry warm biological fluids alongside conventional piping, while fibrous structures disappear into walls and ceilings before reappearing elsewhere. Towering statues dominate the central hall, though many seem unfinished, as if abandoned halfway between sculpture and architecture.
+
+Merchants occupy alcoves carved directly into the immense structure, trading refined metals, biological components, cybernetic implants, and salvaged technology. Workers move calmly between biomechanical service constructs, seemingly oblivious to their unsettling surroundings.
+
+Before long, you find yourself doing the same.",,,
+oldstationdesc,CUSTOM,"A long-abandoned research station orbiting Mesik. Once operated jointly by Tri-Tachyon and the Independents to study the Orion–Perseus Abyss, the station continues to emit a faint but persistent sensor signal despite its apparent abandonment. ",,"As your shuttle approaches the station, the only sign of life is a weak but unmistakable sensor transmission. Navigation systems identify it as an automated beacon, though no record exists of the station receiving maintenance since shortly after the Collapse. Exterior lighting flickers intermittently across an otherwise intact superstructure, revealing remarkably little structural damage.
+
+Docking clamps still respond to your approach, guiding the shuttle into a silent hangar whose atmosphere remains fully breathable. Emergency lighting illuminates spotless corridors, deserted laboratories, and observation galleries overlooking the endless darkness beyond Mesik. Computers remain powered, environmental systems continue to function, and dust is strangely absent, as though the station has been waiting for someone to return.
+
+Most research equipment has long since been removed or rendered inoperable, yet scattered terminals, abandoned workstations, and sealed archives hint at decades of observation directed toward the Orion–Perseus Abyss. Whatever conclusions the researchers reached are nowhere to be found. Only the quiet hum of life support and the station's persistent sensor signal suggest that something aboard still refuses to shut down.
+
+Definitely a safe haven for storage, you consider your options.",,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+biformis,SHIP,"An export frigate derived from an early Bagaudas prototype, now found in Independent fleets.
+
+Several Cetoran prototype hulls were traded with the Independents in exchange for vital supplies and logistical support. Stripped of the Advanced Sensor Suite and simplified for ease of maintenance, the Biformis features fewer weapon mounts and engines than its military successor. Open bow sections provide convenient access for cargo transfer and docking operations.
+
+Though obsolete by Cetoran standards, the design remains a dependable workforce in the hands of resourceful captains.",,,,,
+,,,,,,,
+wulfaz,SHIP,"A fast escort frigate inspired by early encounters with the independent Wolf-class.
+
+Impressed by the remarkable firepower packed into such a compact hull, Cetoran engineers developed the Wulfaz as their own interpretation of the design. While echoing the Wolf’s speed and versatility, the Wulfaz incorporates Cetoran sensor suites and their plating, allowing it to integrate seamlessly into Cetoran fleets without disrupting logistics or maintenance doctrine.",,,,,
+bagaudas,SHIP,"A versatile frigate that forms the backbone of the Cetoran fleet.
+
+Rather than pursuing specialization, Cetoran engineers designed the Bagaudas as a dependable warship capable of fulfilling a wide range of combat roles. Though it lacks exceptional defenses, the Bagaudas embodies the Cetoran belief that reliability, maintainability, and concentrated firepower are the foundations of a successful fleet.",,,,,
+bekos,SHIP,"A utility frigate serving as the logistical backbone of Cetoran fleets.
+
+Designed around transport and recovery operations, the Bekos combines a modest cargo capacity with facilities for deploying and maintaining Dusios logistics drones. A salvage gantry allows valuable materials to be recovere directly from the battlefield.
+
+Lightly armed and seldom committed to frontline combat, the Bekos instead earns its reputation by keeping entire fleets supplied, repaired, and ready for the next battle.",,,,,
+lugus,SHIP,"A lightly armed automated destroyer built to disrupt enemy formations.
+
+The Lugus is one of the few fully autonomous warships fielded by Cetora, second only to its ubiquitous Dusios drone. Sacrificing conventional armament in favor of a dense frontal battery of Mitra launchers, the vessel relies on overwhelming missile salves and a dedicated electronic warfare package to degrade enemy targeting systems. Large sensor arrays mounted aft provide battlefield awareness in place of the standard Cetoran sensor suite. The absence of a crew, due to the ship being a prime target for enemies, allows the Lugus to undertake high-risk operations that would be unacceptable for a manned vessel.",,,,,
+sirom,SHIP,"A specialized logistics destroyer built to coordinate large-scale battlefield recovery operations.
+
+Developed from the proven Bekos design, the Sirom replaces much of its cargo capacity with expanded facilities for deploying and servicing Dusios logistics drones. Improved armamaent and a more resilient hull allow it to operate closer to the front line, where its enlarged drone complement can sustain nearby Cetoran warships.
+
+Complex to construct and of limited strategic value outside logistics-heavy task forces, the Sirom is a rarity.",,,,,
+nertos,SHIP,"A compact broadside cruiser designed to deliver overwhelming lateral firepower.
+
+Rejecting the traditional bow-on combat doctrine favored by most fleets, the Nertos concentrates the vast majority of its weaponry along its flanks. Powerful forward-facing maneuvering engines allow the cruiser to rapidly decelerate, pivot, and maintain optimal firing angles. The Nertos is inexpensive to produce and commonly fielded in numbers.",,,,,
+camulus,SHIP,"A long battlecruiser that serves as the flagship of Cetora.
+
+Though modest in size by capital ship standards, the Camulus embodies every aspect of Cetoran doctrine. Its hull is densely packe with weapons, allowing it to proect formidable firepower across nearly every firing arc, while integrated Mitra launchers provide constant missile support. Powerful forward- and lateral-facing maneuvering engines enable the battlecruiser to decelerate and reposition with remarkable agility.
+
+Lacking the heavy armor of larger capital ships, the Camulus instead relies on Rivited Plating, superior maneuverability, and relentless offensive pressure to dominate the battlefield.",,,,,
+dusios,SHIP,"An autonomous logistics drone that embodies the Cetoran philosophy of battlefield sustainment.
+
+Equipped with the specialized Cetoran Beam, the Dusios harvests structural material directly from enemy hulls and battlefield debris before processing it into repair stock for nearby allied vessels. Though lightly armed and vulnerable when isolated, the drone’s ability to sustain fleets through continuous recovery operations has become a cornerstone fo Cetoran doctrine.
+
+Wherever Dusios drones are present, damaged warships rarely remain damaged for long.",,,,,
+,,,,,,,
+ezyk,SHIP,"Recovered combat footage identifies the Ezyk as a destroyer-sized logistical vessel routinely accompanying Cetevska formations. Despite its apparent transport role, the class carries armament comparable to dedicated combat ships of similar displacement and should not be considered a non-combatant.
+
+The hull incorporates several externally mounted Ichorene reservoirs, the function of which remains unknown. As with all documented Cetevska vessels, regenerative Fibrosteel armor and extensive Myosynth structures significantly reduce crew requirements. Dedicated launch facilities for Robe support drones indicate that autonomous escorts form an integral component of the vessel's defensive capability.",,,,,
+gvezda,SHIP,"The Gvezda is an uncommon destroyer encountered only in limited numbers. Unlike most documented Cetevska vessels, it demonstrates exceptional maneuverability while retaining the characteristic regenerative hull observed throughout the fleet.
+
+The scarcity of sighted examples suggests the class may be difficult to manufacture or maintain. Analysts speculate that the vessel's increased performance pushes the practical limits of Cetevska biomechanical construction, explaining its apparent rarity despite its favorable combat characteristics.",,,,,
+rog,SHIP,"The Rog is the most frequently encountered frontline combat vessel within Cetevska fleets. Analysis of recovered engagements indicates a doctrine centered on concentrated forward firepower, with the majority of its armament mounted along the vessel's bow.",,,,,
+etro,SHIP,"The Etro is a cruiser whose size and mass exceed what is typically expected of its classification. Combat records consistently identify it as one of the principal offensive elements of Cetevska fleet formations, with firepower rivaling that of considerably larger warships.
+
+Despite its immense displacement, the vessel exhibits the regenerative Fibrosteel armor and extensive Myosynth integration common to all documented Cetevska designs. Captains are advised to avoid prolonged engagements, as damage sustained by the class has been observed to recover rapidly when left unchecked.",,,,,
+koren,SHIP,"The Koren is a cruiser-sized logistical vessel regularly observed operating alongside Cetevska battle groups. Despite its apparent transport role, the class carries armament more typical of destroyer-class warships and has repeatedly been documented participating directly in frontline engagements.
+
+External Ichorene reservoirs, similar to those found aboard the Ezyk, Etro, and Mati classes, suggest a common biological support system whose exact purpose remains undetermined.",,,,,
+mati,SHIP,"Intercepted Cetevska communications consistently refer to this class as the ""Mother."" The Mati serves as the centerpiece of major Cetevska fleet formations and exceeds the size of most capital ships currently fielded throughout the Persean Sector.
+
+Its regenerative Fibrosteel hull, extensive Myosynth integration, and formidable weaponry make the vessel exceptionally difficult to neutralize. Integrated launch facilities deploy elite Sadlo gunships, allowing the class to project substantial force independently. Captains are advised to regard the appearance of a Mati as a major escalation in combat capability.",,,,,
+,,,,,,,
+robe,SHIP,"The Robe is a compact autonomous support drone observed exclusively operating from Ezyk-class combat freighters. Its small size and simple construction appear to allow rapid replacement, with multiple units commonly fielded during extended engagements.
+
+Although lightly armed, the drone is consistently employed in a defensive role, screening its host vessel and intercepting incoming threats. No independent Robe launch platforms have been documented to date.",,,,,
+sadlo,SHIP,"The Sadlo is a heavily armed autonomous gunship deployed exclusively from Mati-class motherships. Despite its size, recovered combat recordings show the craft engaging vessels far larger than itself with considerable effectiveness.
+
+Its exclusive association with the Mati suggests it was designed specifically to extend the mothership's offensive reach beyond the capabilities of its primary weapon systems.",,,,,
+,,,,,,,
+kumo,SHIP,"The Kumo is a compact autonomous frigate encountered in large numbers throughout Cetudan fleets. Individually, the class presents only a limited threat, but coordinated swarm tactics allow groups of Kumo drones to overwhelm isolated targets and screen larger vessels effectively.
+
+Recovered wreckage indicates extensive power distribution systems supporting the vessel's shield network, while the absence of life-support infrastructure confirms the class was designed for fully autonomous operation from the outset.",,,,,
+hongik,SHIP,"The Hongik is a rare crewed frigate representing a notable departure from Cetudan reliance on autonomous warships. Despite mounting only two medium weapon hardpoints, the class has earned a reputation for exceptional combat effectiveness.
+
+Analysis attributes its performance to an unusually powerful reactor, an oversized power distribution network, and outstanding maneuverability. Captains are advised not to underestimate the vessel based on its size or armament, as recovered combat data consistently identifies the Hongik as a high-priority threat.",,,,,
+mir,SHIP,"The Mir is a destroyer-sized civilian freighter commonly employed throughout Cetudan-controlled space. While equipped with the same advanced shield and power distribution technologies observed on military designs, the class carries only minimal armament and has rarely been documented participating in frontline combat.
+
+Its defensive resilience and autonomous operation make the vessel well suited to long-range logistical duties, though recovered engagements suggest its primary response to hostile contact is evasion rather than direct engagement.",,,,,
+qinglong,SHIP,"The Qinglong is a rare crewed light carrier distinguished by its emphasis on rapid fighter deployment rather than sustained fleet support. The class carries only a single fighter wing, yet recovered combat recordings show its strike craft reaching the battlefield with exceptional speed.
+
+Like other Cetudan vessels, the Qinglong employs an advanced shield architecture and high-capacity power distribution systems.",,,,,
+genbu,SHIP,"The Genbu is the most commonly encountered destroyer within Cetudan fleets. Fully autonomous in operation, the class favors numerous small-caliber weapon mounts over heavier armament, relying on mobility and sustained fire to overwhelm opposing vessels.
+
+Its combination of speed, resilience, and autonomous operation makes it the backbone of most observed Cetudan fleet formations.",,,,,
+ryugu,SHIP,"The Ryugu is an autonomous light carrier approaching cruiser dimensions. Despite carrying only minimal direct armament, the class routinely deploys two fighter wings while maintaining the high speed characteristic of Cetudan warships.
+
+Recovered combat footage indicates the vessel relies on mobility and strike craft rather than ship-mounted weaponry. The combination of advanced shield systems, autonomous operation, and rapid fighter deployment makes the Ryugu a dangerous force multiplier despite its limited offensive battery.",,,,,
+cheondo,SHIP,"The autonomous Cheondo is the only  capital ship identified in Cetudan service and exceeds the size of most fleet carriers currently fielded throughout the Persean Sector. Recovered combat footage consistently shows the class operating as the centerpiece of major Cetudan fleet formations.
+
+Capable of deploying up to five fighter wings while retaining formidable ship-mounted armament and exceptional mobility, the Cheondo presents an unusually complex threat profile. Intelligence assessments identify its ability to sustain continuous strike craft operations without human intervention as the vessel's defining characteristic, allowing it to overwhelm even well-prepared defensive formations through relentless operational tempo.",,,,,
+mita,SHIP,"The autonomous Mita is the most common strike craft employed by Cetudan fleets. Recovered engagements show the drone being fielded in overwhelming numbers, favoring mass deployment over individual size or firepower.
+
+Despite its modest dimensions, the Mita consistently outperforms comparable fighter craft in direct engagements. Speculations attribute this to the advanced power distribution and shielding technologies common to all documented Cetudan military designs, making even individual Mita drones a credible threat to hostile strike craft.",,,,,
+saya,SHIP,"The Saya is a crewed bomber carrying a single pilot and operating in pairs. Recovered combat recordings show the craft relying on exceptional speed to deliver a heavy ordnance payload before rapidly disengaging from hostile formations.
+
+Although lightly protected, the Saya's mobility and striking power make it a significant threat to larger warships. Captains are advised to prioritize interception before the craft reaches weapon release range.",,,,,
+tanpakuseki,SHIP,"The Tanpakuseki is a heavily armed crewed gunship regarded as one of the most capable strike craft in Cetudan service. Unlike the faction's numerous autonomous drones, the class relies on a human pilot to fully exploit its exceptional combat performance.
+
+Equipped with an unusually resilient shield system and substantial forward firepower, the Tanpakuseki has repeatedly been observed engaging both hostile fighters and frigate-class vessels with equal effectiveness. Intelligence assessments consider it the benchmark against which all other documented Cetudan strike craft are measured.",,,,,
+,,,,,,,
+,,,,,,,
+cetoran_beam,WEAPON,"A specialized support beam found exclusively aboard Cetoran logistics drones.
+
+The Cetoran Beam is unlike conventional weapons. Rather than serving as primary armament, it is designed to recover structural material from enemy hulls. As the beam strips away fragments of armor and wreckage, the collected material is drawn back to the drone and repurposed for rapid battlefield repairs. Combined with Cetoran ships’ modular Riveted Plating, even minor amounts of salvaged material can be redistributed across the fleet.",,,,,
+mitra,WEAPON,"A compact swarm missile launcher integrated into the Lugus and the Camulus.
+
+Designed to overwhelm small craft through sheer volume of fire, the Mitra launches inexpensive warheads in rapid succession. Individually, its missiles pose little threat, but concentrated salvos can quickly saturate enemy point defenses.",,,,,

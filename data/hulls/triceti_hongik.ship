@@ -1,0 +1,91 @@
+{
+  "hullName": "Hongik",
+  "hullId": "triceti_hongik",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/triceti/ships/Cetudan/Hongik.png",
+  "style": "HIGH_TECH",
+  "height": 84,
+  "width": 79,
+  "center": [39.5, 42],
+  "collisionRadius": 46.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 46,
+  "viewOffset": 0,
+  "builtInMods": [
+    "triceti_amplified_weapon_capacitors",
+    "delicate",
+    "triceti_energy_recirculation_network"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [4, -24.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [4, 24.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-38, -13.5],
+      "length": 19,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-38, 13.5],
+      "length": 19,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-41, -3.5],
+      "length": 20.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-41, 3.5],
+      "length": 20.5,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    42.5, 3,
+    17.5, 11,
+    15.5, 32.5,
+    -4.5, 40.5,
+    -22, 38,
+    -24.5, 23,
+    -35.5, 19,
+    -41.5, 6,
+    -41.5, -6,
+    -35.5, -19,
+    -24.5, -23,
+    -22, -38,
+    -4.5, -40.5,
+    15.5, -32.5,
+    17.5, -11,
+    42.5, -3
+  ]
+}
