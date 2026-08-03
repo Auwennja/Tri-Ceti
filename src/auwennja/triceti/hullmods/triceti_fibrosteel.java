@@ -11,7 +11,7 @@ public class triceti_fibrosteel extends BaseLogisticsHullMod {
      *
      * 0.005f = 0.5% maximum hull per second.
      */
-    public static final float REGEN_RATE = 0.005f;
+    public static final float REGEN_RATE = 0.01f;
 
     /**
      * Maximum hull level the ship can regenerate to.
