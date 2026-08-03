@@ -20,14 +20,11 @@
   # GitHub: https://raw.githubusercontent.com/MagicLibStarsector/MagicLib/master/magiclib.version
   # Dropbox: https://www.dropbox.com/s/rnzm1m8l8ik8a6l/modname.zip?dl=1  # Note the ?dl=1
   # Google Drive: https://drive.google.com/uc?id=1dbx-oOyFxy6l2ECLHqNtWg5kBW3lXBo7&export=download  # Note the &export=download
-  "masterVersionFile": "https://github.com/Auwennja/Tri-Ceti/blob/main/auwennja_triceti.version",
+  "masterVersionFile": "https://raw.githubusercontent.com/Auwennja/Tri-Ceti/refs/heads/main/auwennja_triceti.version",
 
   "modName": "Tri-Ceti",
 
-  # The current patch number
-  # Notation is major.minor.patch, trailing zeros are ignored
-  # This means version 2.1.0 shows up as v2.1, version 4.0.0 as v4, etc
-  # If you use major.minor notation you can just leave patch as 0
+
   "modVersion":
     {
       "major": 1,
