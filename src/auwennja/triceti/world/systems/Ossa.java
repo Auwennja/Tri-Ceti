@@ -128,5 +128,9 @@ public class Ossa implements SectorGeneratorPlugin {
 
         systemOSS.autogenerateHyperspaceJumpPoints(true, true);
         AbyssalRogueStellarObjectEPEC.setAbyssalDetectedRanges(systemOSS);
+
+        if (!utrobamarket.hasCondition(ModPlugin.AI_LOGISTICS_CONDITION)) {
+            utrobamarket.addCondition(ModPlugin.AI_LOGISTICS_CONDITION);
+        }
     }
 }

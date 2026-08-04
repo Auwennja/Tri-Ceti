@@ -5,15 +5,16 @@
     "enabledByDefault":true,
 	
     "rebelFleetSuffix":"Deserters",
-
-	"disableDiplomacy":false,
+    "marketSpawnWeight":0.5,
+    "freeMarket":true,
+    "disableDiplomacy":false,
     "startRelationships":{ "luddic_church":-1, "luddic_path":-1,"tritachyon":-1,"remnant":-1,"hegemony":-1, "persean":-1, "pirates":-1 },
     "maxRelationships":{ "luddic_church":0, "luddic_path":0.4, "tritachyon":-1,"remnant":-1, "hegemony":0, "persean":0, "pirates":0 },
     "noRandomizeRelations":true,
 	"morality":"neutral",
     
     "defenceStations":[
-        {"ids":["orbitalstation", "battlestation", "starfortress"]}
+        {"ids":["orbitalstation_mid", "battlestation_mid", "starfortress_mid"]}
     ],
 
     "allowAgentActions":true,
@@ -26,8 +27,14 @@
         "ideological":-0.5
     },
     "diplomacyTraits":["neutralist", "helps_allies", "foreverwar"],
-    
+    "colonyExpeditionChance":0.75,
+    "colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
     "canInvade":true,
 
-    "dropPrisoners":true
+    "dropPrisoners":true,
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.1},
+        {"id":"fuelprod", "mult":0.1},
+        {"id":"lightindustry", "mult":0.1},
+    ]
 }

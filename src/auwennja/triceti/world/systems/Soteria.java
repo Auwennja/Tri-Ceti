@@ -230,5 +230,9 @@ public class Soteria implements SectorGeneratorPlugin {
         //hyperstorm-b-gone (around system in hyperspace)
         nebulaEditor.clearArc(systemSOT.getLocation().x, systemSOT.getLocation().y, 0, minHyperspaceRadius + maxHyperspaceRadius, 0f, 360f, 0.25f);
 
+        if (!redamarket.hasCondition(ModPlugin.AI_LOGISTICS_CONDITION)) {
+            redamarket.addCondition(ModPlugin.AI_LOGISTICS_CONDITION);
+        }
+
     }
 }

@@ -1,0 +1,2 @@
+name,id,tags,planetary,decivRemove,script,desc,icon,order
+AI-built Logistics Network,triceti_ai_logistics_network,,,,auwennja.triceti.campaign.econ.triceti_ai_built_logistics_network,A colony-wide logistics network on $market efficiently designed and built with old pre-ban Domain AI. This helps offset logistical delays.,graphics/triceti/icons/markets/triceti_ai_logistics_network.png,1201

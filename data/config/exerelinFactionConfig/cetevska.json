@@ -1,14 +1,15 @@
 {
     "playableFaction":false,
     "corvusCompatible":true,
-    "hostileToAll":2,
+    "hostileToAll":1,
     "enabledByDefault":true,
 	
-    "rebelFleetSuffix":"Deserters",
-
-	"disableDiplomacy":true,
+    "rebelFleetSuffix":"Traitors",
+    "marketSpawnWeight":0.5,
+    "freeMarket":true,
+    "disableDiplomacy":false,
     "startRelationships":{ "player":-1, "independent":-1, "luddic_church":-1, "luddic_path":-1,"tritachyon":-1,"remnant":-1,"hegemony":-1, "persean":-1, "pirates":-1 },
-    "maxRelationships":{ "independent":-1, "luddic_church":-1, "luddic_path":-1, "tritachyon":-1,"remnant":-1, "hegemony":-1, "persean":-1, "pirates":-1 },
+    "maxRelationships":{ "independent":-0.3, "luddic_church":-1, "luddic_path":-1, "tritachyon":-0.3,"remnant":-1, "hegemony":-0.3, "persean":-0.3, "pirates":-1 },
     "noRandomizeRelations":true,
 	"morality":"evil",
     
@@ -26,8 +27,14 @@
         "ideological":1
     },
     "diplomacyTraits":["paranoid", "temperamental", "envious", "foreverwar"],
-    
+    "colonyExpeditionChance":0.75,
+    "colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
     "canInvade":true,
 
-    "dropPrisoners":false
+    "dropPrisoners":false,
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.1},
+        {"id":"fuelprod", "mult":0.1},
+        {"id":"lightindustry", "mult":0.1},
+    ]
 }

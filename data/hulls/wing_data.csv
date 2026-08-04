@@ -1,9 +1,9 @@
 id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
 triceti_dusios_wing,triceti_dusios_fighter,"no_drop, no_sell, stay_in_front_of_ship",0,,8,0,BOX,2000,500,,4,INTERCEPTOR,Drone,10,14000,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-triceti_mita_wing,triceti_mita_fighter,support8,0,,4,8,V,0,500,,8,SUPPORT,Support Drone,5,2000,,,,,,,,,,,,,
+triceti_mita_wing,triceti_mita_fighter,"support4, bp_cetudan",0,,4,8,V,0,500,,4,SUPPORT,Support Drone,5,8000,,,,,,,,,,,,,
 triceti_saya_wing,triceti_saya_fighter,"bomber2, bomber, bp_cetudan",2,,8,18,V,4000,2000,600,2,BOMBER,Bomber,18,14000,,,,,,,,,,,,,
 triceti_tanpakuseki_wing,triceti_tanpakuseki_fighter,"fighter2, fighter, bp_cetudan",3,0.25,8,20,BOX,4000,500,,2,FIGHTER,Fighter,20,20000,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-triceti_robe_wing,triceti_robe_fighter,"no_drop, no_sell, fighter4, fighter, bp_cetevska",0,,4,0,CLAW,0,500,200,4,SUPPORT,Support Drone,5,6000,,,,,,,,,,,,,
+triceti_robe_wing,triceti_robe_fighter,"no_drop, no_sell, fighter4, fighter",0,,4,0,V,0,500,200,4,SUPPORT,Support Drone,5,6000,,,,,,,,,,,,,
 triceti_sadlo_wing,triceti_sadlo_fighter,"no_drop, no_sell, support1",0,,8,0,BOX,0,500,,1,SUPPORT,Support Drone,25,25000,,,,,,,,,,,,,

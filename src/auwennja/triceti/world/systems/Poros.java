@@ -109,7 +109,7 @@ public class Poros implements SectorGeneratorPlugin {
         planetTwo.getMarket().addCondition(Conditions.RARE_ORE_RICH);
 
         PlanetAPI planetThree = systemPOR.addPlanet( //assigns instance of newly created planet to variable planetOne
-                "Kama", //unique id string
+                "kama", //unique id string
                 star, //orbit focus for planet
                 "Kama", //display name of planet
                 "tundra", //planet type id, comes from starsector-core/data/campaign/procgen/planet_gen_data.csv
@@ -233,5 +233,8 @@ public class Poros implements SectorGeneratorPlugin {
         //hyperstorm-b-gone (around system in hyperspace)
         nebulaEditor.clearArc(systemPOR.getLocation().x, systemPOR.getLocation().y, 0, minHyperspaceRadius + maxHyperspaceRadius, 0f, 360f, 0.25f);
 
+        if (!kamamarket.hasCondition(ModPlugin.AI_LOGISTICS_CONDITION)) {
+            kamamarket.addCondition(ModPlugin.AI_LOGISTICS_CONDITION);
+        }
     }
 }

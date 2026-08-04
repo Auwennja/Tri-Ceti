@@ -64,4 +64,5 @@ public class tricetigen {
 
         initFactionRelationships(sector);
     }
+
 }
