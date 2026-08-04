@@ -7,6 +7,7 @@ import com.fs.starfarer.api.campaign.econ.MarketAPI;
 import com.fs.starfarer.api.impl.campaign.enc.AbyssalRogueStellarObjectEPEC;
 import com.fs.starfarer.api.impl.campaign.ids.*;
 import com.fs.starfarer.api.impl.campaign.procgen.StarSystemGenerator;
+import com.fs.starfarer.api.util.Misc;
 
 import java.awt.*;
 import java.util.ArrayList;
@@ -105,16 +106,7 @@ public class Ossa implements SectorGeneratorPlugin {
         oldstation_OSS.setCircularOrbit(planetTwo, 95f, 190f, 162f);
         oldstation_OSS.setCustomDescriptionId("oldstationdesc");
         oldstation_OSS.setInteractionImage("illustrations", "abandoned_station3");
-        MarketAPI oldstation_market = Global.getFactory().createMarket(
-                "oldstation_market",
-                oldstation_OSS.getName(),
-                0
-        );
-        oldstation_market.setPrimaryEntity(oldstation_OSS);
-        oldstation_market.setFactionId(Factions.NEUTRAL);
-        oldstation_market.setHidden(true);
-        oldstation_market.addSubmarket(Submarkets.SUBMARKET_STORAGE);
-        oldstation_OSS.setMarket(oldstation_market);
+        Misc.setAbandonedStationMarket("oldstation_market", oldstation_OSS);
 
         //add makeshift comm relay entity to system
         SectorEntityToken relay = systemOSS.addCustomEntity(

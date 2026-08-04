@@ -67,16 +67,8 @@ public class Soteria implements SectorGeneratorPlugin {
         stationabandoned_SOT.setCircularOrbit(planetOne, 180f, 430f, 156f);
         stationabandoned_SOT.setCustomDescriptionId("stationabandoneddesc");
         stationabandoned_SOT.setInteractionImage("illustrations", "orbital_construction");
-        MarketAPI stationabandoned_market = Global.getFactory().createMarket(
-                "stationabandoned_SOT_market",
-                stationabandoned_SOT.getName(),
-                0
-        );
-        stationabandoned_market.setPrimaryEntity(stationabandoned_SOT);
-        stationabandoned_market.setFactionId(Factions.NEUTRAL);
-        stationabandoned_market.setHidden(true);
-        stationabandoned_market.addSubmarket(Submarkets.SUBMARKET_STORAGE);
-        stationabandoned_SOT.setMarket(stationabandoned_market);
+        Misc.setAbandonedStationMarket("stationabandoned_SOT_market", stationabandoned_SOT);
+
 
         PlanetAPI planetTwo = systemSOT.addPlanet( //assigns instance of newly created planet to variable planetOne
                 "Briga", //unique id string
