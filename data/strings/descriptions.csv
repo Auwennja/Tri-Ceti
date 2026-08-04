@@ -60,104 +60,103 @@ Definitely a safe haven for storage, you consider your options.",,,
 ,,,,,,,
 ,,,,,,,
 ,,,,,,,
-biformis,SHIP,"An export frigate derived from an early Bagaudas prototype, now found in Independent fleets.
+triceti_biformis,SHIP,"An export frigate derived from an early Bagaudas prototype, now found in Independent fleets.
 
 Several Cetoran prototype hulls were traded with the Independents in exchange for vital supplies and logistical support. Stripped of the Advanced Sensor Suite and simplified for ease of maintenance, the Biformis features fewer weapon mounts and engines than its military successor. Open bow sections provide convenient access for cargo transfer and docking operations.
 
 Though obsolete by Cetoran standards, the design remains a dependable workforce in the hands of resourceful captains.",,,,,
 ,,,,,,,
-wulfaz,SHIP,"A fast escort frigate inspired by early encounters with the independent Wolf-class.
+triceti_wulfaz,SHIP,"A fast escort frigate inspired by early encounters with the independent Wolf-class.
 
 Impressed by the remarkable firepower packed into such a compact hull, Cetoran engineers developed the Wulfaz as their own interpretation of the design. While echoing the Wolf’s speed and versatility, the Wulfaz incorporates Cetoran sensor suites and their plating, allowing it to integrate seamlessly into Cetoran fleets without disrupting logistics or maintenance doctrine.",,,,,
-bagaudas,SHIP,"A versatile frigate that forms the backbone of the Cetoran fleet.
+triceti_bagaudas,SHIP,"A versatile frigate that forms the backbone of the Cetoran fleet.
 
 Rather than pursuing specialization, Cetoran engineers designed the Bagaudas as a dependable warship capable of fulfilling a wide range of combat roles. Though it lacks exceptional defenses, the Bagaudas embodies the Cetoran belief that reliability, maintainability, and concentrated firepower are the foundations of a successful fleet.",,,,,
-bekos,SHIP,"A utility frigate serving as the logistical backbone of Cetoran fleets.
+triceti_bekos,SHIP,"A utility frigate serving as the logistical backbone of Cetoran fleets.
 
 Designed around transport and recovery operations, the Bekos combines a modest cargo capacity with facilities for deploying and maintaining Dusios logistics drones. A salvage gantry allows valuable materials to be recovere directly from the battlefield.
 
 Lightly armed and seldom committed to frontline combat, the Bekos instead earns its reputation by keeping entire fleets supplied, repaired, and ready for the next battle.",,,,,
-lugus,SHIP,"A lightly armed automated destroyer built to disrupt enemy formations.
+triceti_lugus,SHIP,"A lightly armed automated destroyer built to disrupt enemy formations.
 
 The Lugus is one of the few fully autonomous warships fielded by Cetora, second only to its ubiquitous Dusios drone. Sacrificing conventional armament in favor of a dense frontal battery of Mitra launchers, the vessel relies on overwhelming missile salves and a dedicated electronic warfare package to degrade enemy targeting systems. Large sensor arrays mounted aft provide battlefield awareness in place of the standard Cetoran sensor suite. The absence of a crew, due to the ship being a prime target for enemies, allows the Lugus to undertake high-risk operations that would be unacceptable for a manned vessel.",,,,,
-sirom,SHIP,"A specialized logistics destroyer built to coordinate large-scale battlefield recovery operations.
+triceti_sirom,SHIP,"A specialized logistics destroyer built to coordinate large-scale battlefield recovery operations.
 
 Developed from the proven Bekos design, the Sirom replaces much of its cargo capacity with expanded facilities for deploying and servicing Dusios logistics drones. Improved armamaent and a more resilient hull allow it to operate closer to the front line, where its enlarged drone complement can sustain nearby Cetoran warships.
 
 Complex to construct and of limited strategic value outside logistics-heavy task forces, the Sirom is a rarity.",,,,,
-nertos,SHIP,"A compact broadside cruiser designed to deliver overwhelming lateral firepower.
+triceti_nertos,SHIP,"A compact broadside cruiser designed to deliver overwhelming lateral firepower.
 
 Rejecting the traditional bow-on combat doctrine favored by most fleets, the Nertos concentrates the vast majority of its weaponry along its flanks. Powerful forward-facing maneuvering engines allow the cruiser to rapidly decelerate, pivot, and maintain optimal firing angles. The Nertos is inexpensive to produce and commonly fielded in numbers.",,,,,
-camulus,SHIP,"A long battlecruiser that serves as the flagship of Cetora.
+triceti_camulus,SHIP,"A long battlecruiser that serves as the flagship of Cetora.
 
 Though modest in size by capital ship standards, the Camulus embodies every aspect of Cetoran doctrine. Its hull is densely packe with weapons, allowing it to proect formidable firepower across nearly every firing arc, while integrated Mitra launchers provide constant missile support. Powerful forward- and lateral-facing maneuvering engines enable the battlecruiser to decelerate and reposition with remarkable agility.
 
 Lacking the heavy armor of larger capital ships, the Camulus instead relies on Rivited Plating, superior maneuverability, and relentless offensive pressure to dominate the battlefield.",,,,,
-dusios,SHIP,"An autonomous logistics drone that embodies the Cetoran philosophy of battlefield sustainment.
+triceti_dusios,SHIP,"An autonomous logistics drone that embodies the Cetoran philosophy of battlefield sustainment.
 
 Equipped with the specialized Cetoran Beam, the Dusios harvests structural material directly from enemy hulls and battlefield debris before processing it into repair stock for nearby allied vessels. Though lightly armed and vulnerable when isolated, the drone’s ability to sustain fleets through continuous recovery operations has become a cornerstone fo Cetoran doctrine.
 
 Wherever Dusios drones are present, damaged warships rarely remain damaged for long.",,,,,
 ,,,,,,,
-ezyk,SHIP,"Recovered combat footage identifies the Ezyk as a destroyer-sized logistical vessel routinely accompanying Cetevska formations. Despite its apparent transport role, the class carries armament comparable to dedicated combat ships of similar displacement and should not be considered a non-combatant.
+triceti_ezyk,SHIP,"Recovered combat footage identifies the Ezyk as a destroyer-sized logistical vessel routinely accompanying Cetevska formations. Despite its apparent transport role, the class carries armament comparable to dedicated combat ships of similar displacement and should not be considered a non-combatant.
 
 The hull incorporates several externally mounted Ichorene reservoirs, the function of which remains unknown. As with all documented Cetevska vessels, regenerative Fibrosteel armor and extensive Myosynth structures significantly reduce crew requirements. Dedicated launch facilities for Robe support drones indicate that autonomous escorts form an integral component of the vessel's defensive capability.",,,,,
-gvezda,SHIP,"The Gvezda is an uncommon destroyer encountered only in limited numbers. Unlike most documented Cetevska vessels, it demonstrates exceptional maneuverability while retaining the characteristic regenerative hull observed throughout the fleet.
+triceti_gvezda,SHIP,"The Gvezda is an uncommon destroyer encountered only in limited numbers. Unlike most documented Cetevska vessels, it demonstrates exceptional maneuverability while retaining the characteristic regenerative hull observed throughout the fleet.
 
 The scarcity of sighted examples suggests the class may be difficult to manufacture or maintain. Analysts speculate that the vessel's increased performance pushes the practical limits of Cetevska biomechanical construction, explaining its apparent rarity despite its favorable combat characteristics.",,,,,
-rog,SHIP,"The Rog is the most frequently encountered frontline combat vessel within Cetevska fleets. Analysis of recovered engagements indicates a doctrine centered on concentrated forward firepower, with the majority of its armament mounted along the vessel's bow.",,,,,
-etro,SHIP,"The Etro is a cruiser whose size and mass exceed what is typically expected of its classification. Combat records consistently identify it as one of the principal offensive elements of Cetevska fleet formations, with firepower rivaling that of considerably larger warships.
+triceti_rog,SHIP,"The Rog is the most frequently encountered frontline combat vessel within Cetevska fleets. Analysis of recovered engagements indicates a doctrine centered on concentrated forward firepower, with the majority of its armament mounted along the vessel's bow.",,,,,
+triceti_etro,SHIP,"The Etro is a cruiser whose size and mass exceed what is typically expected of its classification. Combat records consistently identify it as one of the principal offensive elements of Cetevska fleet formations, with firepower rivaling that of considerably larger warships.
 
 Despite its immense displacement, the vessel exhibits the regenerative Fibrosteel armor and extensive Myosynth integration common to all documented Cetevska designs. Captains are advised to avoid prolonged engagements, as damage sustained by the class has been observed to recover rapidly when left unchecked.",,,,,
-koren,SHIP,"The Koren is a cruiser-sized logistical vessel regularly observed operating alongside Cetevska battle groups. Despite its apparent transport role, the class carries armament more typical of destroyer-class warships and has repeatedly been documented participating directly in frontline engagements.
+triceti_koren,SHIP,"The Koren is a cruiser-sized logistical vessel regularly observed operating alongside Cetevska battle groups. Despite its apparent transport role, the class carries armament more typical of destroyer-class warships and has repeatedly been documented participating directly in frontline engagements.
 
 External Ichorene reservoirs, similar to those found aboard the Ezyk, Etro, and Mati classes, suggest a common biological support system whose exact purpose remains undetermined.",,,,,
-mati,SHIP,"Intercepted Cetevska communications consistently refer to this class as the ""Mother."" The Mati serves as the centerpiece of major Cetevska fleet formations and exceeds the size of most capital ships currently fielded throughout the Persean Sector.
+triceti_mati,SHIP,"Intercepted Cetevska communications consistently refer to this class as the ""Mother."" The Mati serves as the centerpiece of major Cetevska fleet formations and exceeds the size of most capital ships currently fielded throughout the Persean Sector.
 
 Its regenerative Fibrosteel hull, extensive Myosynth integration, and formidable weaponry make the vessel exceptionally difficult to neutralize. Integrated launch facilities deploy elite Sadlo gunships, allowing the class to project substantial force independently. Captains are advised to regard the appearance of a Mati as a major escalation in combat capability.",,,,,
-,,,,,,,
-robe,SHIP,"The Robe is a compact autonomous support drone observed exclusively operating from Ezyk-class combat freighters. Its small size and simple construction appear to allow rapid replacement, with multiple units commonly fielded during extended engagements.
+triceti_robe,SHIP,"The Robe is a compact autonomous support drone observed exclusively operating from Ezyk-class combat freighters. Its small size and simple construction appear to allow rapid replacement, with multiple units commonly fielded during extended engagements.
 
 Although lightly armed, the drone is consistently employed in a defensive role, screening its host vessel and intercepting incoming threats. No independent Robe launch platforms have been documented to date.",,,,,
-sadlo,SHIP,"The Sadlo is a heavily armed autonomous gunship deployed exclusively from Mati-class motherships. Despite its size, recovered combat recordings show the craft engaging vessels far larger than itself with considerable effectiveness.
+triceti_sadlo,SHIP,"The Sadlo is a heavily armed autonomous gunship deployed exclusively from Mati-class motherships. Despite its size, recovered combat recordings show the craft engaging vessels far larger than itself with considerable effectiveness.
 
 Its exclusive association with the Mati suggests it was designed specifically to extend the mothership's offensive reach beyond the capabilities of its primary weapon systems.",,,,,
 ,,,,,,,
-kumo,SHIP,"The Kumo is a compact autonomous frigate encountered in large numbers throughout Cetudan fleets. Individually, the class presents only a limited threat, but coordinated swarm tactics allow groups of Kumo drones to overwhelm isolated targets and screen larger vessels effectively.
+triceti_kumo,SHIP,"The Kumo is a compact autonomous frigate encountered in large numbers throughout Cetudan fleets. Individually, the class presents only a limited threat, but coordinated swarm tactics allow groups of Kumo drones to overwhelm isolated targets and screen larger vessels effectively.
 
 Recovered wreckage indicates extensive power distribution systems supporting the vessel's shield network, while the absence of life-support infrastructure confirms the class was designed for fully autonomous operation from the outset.",,,,,
-hongik,SHIP,"The Hongik is a rare crewed frigate representing a notable departure from Cetudan reliance on autonomous warships. Despite mounting only two medium weapon hardpoints, the class has earned a reputation for exceptional combat effectiveness.
+triceti_hongik,SHIP,"The Hongik is a rare crewed frigate representing a notable departure from Cetudan reliance on autonomous warships. Despite mounting only two medium weapon hardpoints, the class has earned a reputation for exceptional combat effectiveness.
 
 Analysis attributes its performance to an unusually powerful reactor, an oversized power distribution network, and outstanding maneuverability. Captains are advised not to underestimate the vessel based on its size or armament, as recovered combat data consistently identifies the Hongik as a high-priority threat.",,,,,
-mir,SHIP,"The Mir is a destroyer-sized civilian freighter commonly employed throughout Cetudan-controlled space. While equipped with the same advanced shield and power distribution technologies observed on military designs, the class carries only minimal armament and has rarely been documented participating in frontline combat.
+triceti_mir,SHIP,"The Mir is a destroyer-sized civilian freighter commonly employed throughout Cetudan-controlled space. While equipped with the same advanced shield and power distribution technologies observed on military designs, the class carries only minimal armament and has rarely been documented participating in frontline combat.
 
 Its defensive resilience and autonomous operation make the vessel well suited to long-range logistical duties, though recovered engagements suggest its primary response to hostile contact is evasion rather than direct engagement.",,,,,
-qinglong,SHIP,"The Qinglong is a rare crewed light carrier distinguished by its emphasis on rapid fighter deployment rather than sustained fleet support. The class carries only a single fighter wing, yet recovered combat recordings show its strike craft reaching the battlefield with exceptional speed.
+triceti_qinglong,SHIP,"The Qinglong is a rare crewed light carrier distinguished by its emphasis on rapid fighter deployment rather than sustained fleet support. The class carries only a single fighter wing, yet recovered combat recordings show its strike craft reaching the battlefield with exceptional speed.
 
 Like other Cetudan vessels, the Qinglong employs an advanced shield architecture and high-capacity power distribution systems.",,,,,
-genbu,SHIP,"The Genbu is the most commonly encountered destroyer within Cetudan fleets. Fully autonomous in operation, the class favors numerous small-caliber weapon mounts over heavier armament, relying on mobility and sustained fire to overwhelm opposing vessels.
+triceti_genbu,SHIP,"The Genbu is the most commonly encountered destroyer within Cetudan fleets. Fully autonomous in operation, the class favors numerous small-caliber weapon mounts over heavier armament, relying on mobility and sustained fire to overwhelm opposing vessels.
 
 Its combination of speed, resilience, and autonomous operation makes it the backbone of most observed Cetudan fleet formations.",,,,,
-ryugu,SHIP,"The Ryugu is an autonomous light carrier approaching cruiser dimensions. Despite carrying only minimal direct armament, the class routinely deploys two fighter wings while maintaining the high speed characteristic of Cetudan warships.
+triceti_ryugu,SHIP,"The Ryugu is an autonomous light carrier approaching cruiser dimensions. Despite carrying only minimal direct armament, the class routinely deploys two fighter wings while maintaining the high speed characteristic of Cetudan warships.
 
 Recovered combat footage indicates the vessel relies on mobility and strike craft rather than ship-mounted weaponry. The combination of advanced shield systems, autonomous operation, and rapid fighter deployment makes the Ryugu a dangerous force multiplier despite its limited offensive battery.",,,,,
-cheondo,SHIP,"The autonomous Cheondo is the only  capital ship identified in Cetudan service and exceeds the size of most fleet carriers currently fielded throughout the Persean Sector. Recovered combat footage consistently shows the class operating as the centerpiece of major Cetudan fleet formations.
+triceti_cheondo,SHIP,"The autonomous Cheondo is the only  capital ship identified in Cetudan service and exceeds the size of most fleet carriers currently fielded throughout the Persean Sector. Recovered combat footage consistently shows the class operating as the centerpiece of major Cetudan fleet formations.
 
 Capable of deploying up to five fighter wings while retaining formidable ship-mounted armament and exceptional mobility, the Cheondo presents an unusually complex threat profile. Intelligence assessments identify its ability to sustain continuous strike craft operations without human intervention as the vessel's defining characteristic, allowing it to overwhelm even well-prepared defensive formations through relentless operational tempo.",,,,,
-mita,SHIP,"The autonomous Mita is the most common strike craft employed by Cetudan fleets. Recovered engagements show the drone being fielded in overwhelming numbers, favoring mass deployment over individual size or firepower.
+triceti_mita,SHIP,"The autonomous Mita is the most common strike craft employed by Cetudan fleets. Recovered engagements show the drone being fielded in overwhelming numbers, favoring mass deployment over individual size or firepower.
 
 Despite its modest dimensions, the Mita consistently outperforms comparable fighter craft in direct engagements. Speculations attribute this to the advanced power distribution and shielding technologies common to all documented Cetudan military designs, making even individual Mita drones a credible threat to hostile strike craft.",,,,,
-saya,SHIP,"The Saya is a crewed bomber carrying a single pilot and operating in pairs. Recovered combat recordings show the craft relying on exceptional speed to deliver a heavy ordnance payload before rapidly disengaging from hostile formations.
+triceti_saya,SHIP,"The Saya is a crewed bomber carrying a single pilot and operating in pairs. Recovered combat recordings show the craft relying on exceptional speed to deliver a heavy ordnance payload before rapidly disengaging from hostile formations.
 
 Although lightly protected, the Saya's mobility and striking power make it a significant threat to larger warships. Captains are advised to prioritize interception before the craft reaches weapon release range.",,,,,
-tanpakuseki,SHIP,"The Tanpakuseki is a heavily armed crewed gunship regarded as one of the most capable strike craft in Cetudan service. Unlike the faction's numerous autonomous drones, the class relies on a human pilot to fully exploit its exceptional combat performance.
+triceti_tanpakuseki,SHIP,"The Tanpakuseki is a heavily armed crewed gunship regarded as one of the most capable strike craft in Cetudan service. Unlike the faction's numerous autonomous drones, the class relies on a human pilot to fully exploit its exceptional combat performance.
 
 Equipped with an unusually resilient shield system and substantial forward firepower, the Tanpakuseki has repeatedly been observed engaging both hostile fighters and frigate-class vessels with equal effectiveness. Intelligence assessments consider it the benchmark against which all other documented Cetudan strike craft are measured.",,,,,
 ,,,,,,,
 ,,,,,,,
-cetoran_beam,WEAPON,"A specialized support beam found exclusively aboard Cetoran logistics drones.
+triceti_cetoran_beam,WEAPON,"A specialized support beam found exclusively aboard Cetoran logistics drones.
 
 The Cetoran Beam is unlike conventional weapons. Rather than serving as primary armament, it is designed to recover structural material from enemy hulls. As the beam strips away fragments of armor and wreckage, the collected material is drawn back to the drone and repurposed for rapid battlefield repairs. Combined with Cetoran ships’ modular Riveted Plating, even minor amounts of salvaged material can be redistributed across the fleet.",,,,,
-mitra,WEAPON,"A compact swarm missile launcher integrated into the Lugus and the Camulus.
+triceti_mitra,WEAPON,"A compact swarm missile launcher integrated into the Lugus and the Camulus.
 
 Designed to overwhelm small craft through sheer volume of fire, the Mitra launches inexpensive warheads in rapid succession. Individually, its missiles pose little threat, but concentrated salvos can quickly saturate enemy point defenses.",,,,,
