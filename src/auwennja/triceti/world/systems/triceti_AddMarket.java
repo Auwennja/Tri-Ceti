@@ -1,4 +1,4 @@
-package data.scripts.world.systems;
+package auwennja.triceti.world.systems;
 
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.SectorEntityToken;

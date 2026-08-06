@@ -1,8 +1,6 @@
 {
-    "playableFaction":false,
+    "playableFaction":true,
     "corvusCompatible":true,
-    "hostileToAll":1,
-    "enabledByDefault":true,
 	
     "rebelFleetSuffix":"Traitors",
     "marketSpawnWeight":0.5,
@@ -36,5 +34,9 @@
         {"id":"orbitalworks", "mult":0.1},
         {"id":"fuelprod", "mult":0.1},
         {"id":"lightindustry", "mult":0.1},
+    ],
+
+    "startShipsSolo":[
+        ["triceti_ezyk_standard"]
     ]
 }

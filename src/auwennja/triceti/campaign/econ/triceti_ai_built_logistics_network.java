@@ -8,9 +8,9 @@ public class triceti_ai_built_logistics_network
         extends BaseMarketConditionPlugin {
 
     /**
-     * A flat +50 percentage-point accessibility bonus.
+     * A flat + percentage-point accessibility bonus.
      */
-    public static final float ACCESSIBILITY_BONUS = 0.5f;
+    public static final float ACCESSIBILITY_BONUS = 0.35f;
 
     private static final String MODIFIER_DESCRIPTION =
             "AI-built logistics network";

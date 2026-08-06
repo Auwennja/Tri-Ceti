@@ -12,7 +12,7 @@ public class triceti_soylent_paste_facility extends BaseIndustry {
         super.apply(true);
 
         int size = market.getSize();
-        int production = Math.max(0, size + 3);
+        int production = Math.max(0, size + 1);
         int demandAmount = Math.max(0, size - 3);
 
         demand(Commodities.ORGANS, demandAmount);

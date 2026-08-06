@@ -64,7 +64,7 @@ public class Poros implements SectorGeneratorPlugin {
         planetOne.setCustomDescriptionId("onpodesc");
         planetOne.setInteractionImage("illustrations", "onpo");
 
-        MarketAPI onpomarket = data.scripts.world.systems.triceti_AddMarket.addMarketplace(
+        MarketAPI onpomarket = auwennja.triceti.world.systems.triceti_AddMarket.addMarketplace(
                 ModPlugin.cetudan,
                 planetOne,
                 null,
@@ -74,7 +74,8 @@ public class Poros implements SectorGeneratorPlugin {
                         Conditions.POPULATION_4,
                         Conditions.EXTREME_WEATHER,
                         Conditions.VOLATILES_PLENTIFUL,
-                        Conditions.HABITABLE
+                        Conditions.HABITABLE,
+                        "triceti_ai_logistics_network"
 
                 )),
                 new ArrayList<>(Arrays.asList( //list of submarkets for this method to iterate through and add to the market. if a military base industry was added to this market, it would be consistent to add a military submarket too
@@ -121,7 +122,7 @@ public class Poros implements SectorGeneratorPlugin {
         planetThree.setCustomDescriptionId("kamadesc");
         planetThree.setInteractionImage("illustrations", "kama");
 
-        MarketAPI kamamarket = data.scripts.world.systems.triceti_AddMarket.addMarketplace(
+        MarketAPI kamamarket = auwennja.triceti.world.systems.triceti_AddMarket.addMarketplace(
                 ModPlugin.cetudan,
                 planetThree,
                 null,
@@ -134,12 +135,14 @@ public class Poros implements SectorGeneratorPlugin {
                         Conditions.RARE_ORE_RICH,
                         Conditions.ORE_ABUNDANT,
                         Conditions.ORGANICS_TRACE,
-                        Conditions.FARMLAND_POOR
+                        Conditions.FARMLAND_POOR,
+                        "triceti_ai_logistics_network"
                 )),
                 new ArrayList<>(Arrays.asList( //list of submarkets for this method to iterate through and add to the market. if a military base industry was added to this market, it would be consistent to add a military submarket too
                         Submarkets.SUBMARKET_OPEN, //add a default open market
                         Submarkets.SUBMARKET_STORAGE, //add a player storage market
-                        Submarkets.SUBMARKET_BLACK //add a black market
+                        Submarkets.SUBMARKET_BLACK, //add a black market
+                        Submarkets.GENERIC_MILITARY
                 )),
                 new ArrayList<>(Arrays.asList( //list of industries for this method to iterate through and add to the market
                         Industries.POPULATION, //population industry is required for weirdness to not happen
@@ -150,7 +153,7 @@ public class Poros implements SectorGeneratorPlugin {
                         Industries.WAYSTATION,
                         Industries.MINING,
                         Industries.REFINING,
-                        Industries.ORBITALWORKS,
+                        Industries.HEAVYINDUSTRY,
                         Industries.FARMING
 
                 )),

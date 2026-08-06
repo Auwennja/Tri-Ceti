@@ -1,9 +1,7 @@
 {
-    "playableFaction":false,
+    "playableFaction":true,
     "corvusCompatible":true,
-    "hostileToAll":2,
-    "enabledByDefault":true,
-	
+
     "rebelFleetSuffix":"Deserters",
     "marketSpawnWeight":0.5,
     "freeMarket":true,
@@ -35,5 +33,9 @@
         {"id":"orbitalworks", "mult":0.1},
         {"id":"fuelprod", "mult":0.1},
         {"id":"lightindustry", "mult":0.1},
+    ],
+
+    "startShipsSolo":[
+        ["triceti_qinglong_standard"]
     ]
 }

@@ -10,7 +10,6 @@ import com.fs.starfarer.api.impl.campaign.procgen.StarAge;
 import com.fs.starfarer.api.impl.campaign.procgen.StarSystemGenerator;
 import com.fs.starfarer.api.impl.campaign.terrain.HyperspaceTerrainPlugin;
 import com.fs.starfarer.api.util.Misc;
-import com.fs.starfarer.campaign.Faction;
 
 import java.awt.*;
 import java.util.ArrayList;
@@ -57,7 +56,7 @@ public class Soteria implements SectorGeneratorPlugin {
                 "ice_giant", //planet type id, comes from starsector-core/data/campaign/procgen/planet_gen_data.csv
                 190f, //starting angle in orbit
                 300f, //planet size
-                4500, //1500 radius gap from the outer randomly generated entity created above
+                4100, //1500 radius gap from the outer randomly generated entity created above
                 1095 //number of in-game days for it to orbit once
         );
         planetOne.setCustomDescriptionId("ollondesc");
@@ -88,7 +87,7 @@ public class Soteria implements SectorGeneratorPlugin {
         stationOne.setCustomDescriptionId("redadesc");
         stationOne.setInteractionImage("illustrations", "reda");
 
-        MarketAPI redamarket = data.scripts.world.systems.triceti_AddMarket.addMarketplace(
+        MarketAPI redamarket = auwennja.triceti.world.systems.triceti_AddMarket.addMarketplace(
                 ModPlugin.cetora,
                 stationOne,
                 null,
@@ -98,12 +97,14 @@ public class Soteria implements SectorGeneratorPlugin {
                         Conditions.POPULATION_5,
                         Conditions.HABITABLE,
                         Conditions.VOLATILES_TRACE,
-                        Conditions.ORE_SPARSE
+                        Conditions.ORE_SPARSE,
+                        "triceti_ai_logistics_network"
                 )),
                 new ArrayList<>(Arrays.asList( //list of submarkets for this method to iterate through and add to the market. if a military base industry was added to this market, it would be consistent to add a military submarket too
                         Submarkets.SUBMARKET_OPEN, //add a default open market
                         Submarkets.SUBMARKET_STORAGE, //add a player storage market
-                        Submarkets.SUBMARKET_BLACK //add a black market
+                        Submarkets.SUBMARKET_BLACK, //add a black market
+                        Submarkets.GENERIC_MILITARY
                 )),
                 new ArrayList<>(Arrays.asList( //list of industries for this method to iterate through and add to the market
                         Industries.POPULATION, //population industry is required for weirdness to not happen
@@ -151,7 +152,7 @@ public class Soteria implements SectorGeneratorPlugin {
         systemSOT.addAsteroidBelt(
                 star, //orbit focus
                 140, //number of asteroid entities
-                innerOrbitDistance + 500, //orbit radius is 500 gap for outer randomly generated entity above
+                innerOrbitDistance + 1000, //orbit radius is 500 gap for outer randomly generated entity above
                 255, //width of band
                 190, //minimum and maximum visual orbit speeds of asteroids
                 220,
@@ -167,10 +168,54 @@ public class Soteria implements SectorGeneratorPlugin {
                 2,
                 Color.white, //colour tint
                 256f, //band width in game
-                innerOrbitDistance + 500, //same as above
+                innerOrbitDistance + 1000, //same as above
                 200f,
                 null,
                 null
+        );
+
+        PlanetAPI planetThree = systemSOT.addPlanet( //assigns instance of newly created planet to variable planetOne
+                "deiwo", //unique id string
+                star, //orbit focus for planet
+                "Deiwo", //display name of planet
+                "tundra", //planet type id, comes from starsector-core/data/campaign/procgen/planet_gen_data.csv
+                15f, //starting angle in orbit
+                130f, //planet size
+                innerOrbitDistance, //1500 radius gap from the outer randomly generated entity created above
+                439 //number of in-game days for it to orbit once
+        );
+        planetThree.setCustomDescriptionId("deiwodesc");
+
+        MarketAPI deiwomarket = auwennja.triceti.world.systems.triceti_AddMarket.addMarketplace(
+                Factions.INDEPENDENT,
+                planetThree,
+                null,
+                "Deiwo",
+                3,
+                new ArrayList<>(Arrays.asList( //List of conditions for this method to iterate through and add to the market
+                        Conditions.POPULATION_3,
+                        Conditions.HABITABLE,
+                        Conditions.COLD,
+                        Conditions.LOW_GRAVITY,
+                        Conditions.METEOR_IMPACTS,
+                        Conditions.ORE_SPARSE,
+                        Conditions.FARMLAND_ADEQUATE
+                )),
+                new ArrayList<>(Arrays.asList( //list of submarkets for this method to iterate through and add to the market. if a military base industry was added to this market, it would be consistent to add a military submarket too
+                        Submarkets.SUBMARKET_OPEN, //add a default open market
+                        Submarkets.SUBMARKET_STORAGE, //add a player storage market
+                        Submarkets.SUBMARKET_BLACK //add a black market
+                )),
+                new ArrayList<>(Arrays.asList( //list of industries for this method to iterate through and add to the market
+                        Industries.POPULATION, //population industry is required for weirdness to not happen
+                        Industries.SPACEPORT,
+                        Industries.GROUNDDEFENSES,
+                        Industries.WAYSTATION,
+                        Industries.MINING,
+                        Industries.FARMING
+                )),
+                true,
+                false
         );
 
         //add makeshift comm relay entity to system
@@ -181,7 +226,7 @@ public class Soteria implements SectorGeneratorPlugin {
                 ModPlugin.cetora
         );
         //assign an orbit
-        relay.setCircularOrbit(star, 270f, innerOrbitDistance + 100f, 400f); //assign an orbit
+        relay.setCircularOrbit(star, 270f, innerOrbitDistance + 700f, 400f); //assign an orbit
 
         //add domain sensor array
         SectorEntityToken sensorArray = systemSOT.addCustomEntity(
@@ -191,7 +236,7 @@ public class Soteria implements SectorGeneratorPlugin {
                 ModPlugin.cetora
         );
         //assign an orbit, point down ensures it rotates to point towards center while orbiting
-        sensorArray.setCircularOrbitPointingDown(star, 90f, innerOrbitDistance - 300, 150f);
+        sensorArray.setCircularOrbitPointingDown(star, 90f, innerOrbitDistance - 500, 150f);
 
         //domain nav buoy
         SectorEntityToken navBuoy = systemSOT.addCustomEntity(
@@ -203,7 +248,22 @@ public class Soteria implements SectorGeneratorPlugin {
         //assign orbit, this time it is orbiting planetOne
         navBuoy.setCircularOrbitPointingDown(star, 0f, 1950f, 160f);
 
+        JumpPointAPI SOTJumpPoint =
+                Global.getFactory().createJumpPoint(
+                        "triceti_SOT_jump_point",
+                        "Inner System Jump-point"
+                );
 
+        SOTJumpPoint.setCircularOrbit(
+                star,
+                180f,
+                1100f,
+                80f
+        );
+
+        SOTJumpPoint.setStandardWormholeToHyperspaceVisual();
+
+        systemSOT.addEntity(SOTJumpPoint);
 
         //autogenerate jump points that will appear in hyperspace and in system
         systemSOT.autogenerateHyperspaceJumpPoints(true, true);

@@ -46,6 +46,7 @@ public class Ossa implements SectorGeneratorPlugin {
         planetOne.getMemoryWithoutUpdate().set("$gateHaulerIceGiant", true);
         planetOne.getMarket().addCondition(Conditions.COLD);
         planetOne.getMarket().addCondition(Conditions.DARK);
+        planetOne.getMarket().addCondition(Conditions.THIN_ATMOSPHERE);
         planetOne.getMarket().addCondition(Conditions.ORE_MODERATE);
         planetOne.getMarket().addCondition(Conditions.RARE_ORE_RICH);
 
@@ -58,7 +59,7 @@ public class Ossa implements SectorGeneratorPlugin {
         stationOne.setCustomDescriptionId("utrobadesc");
         stationOne.setInteractionImage("illustrations", "utroba");
 
-        MarketAPI utrobamarket = data.scripts.world.systems.triceti_AddMarket.addMarketplace(
+        MarketAPI utrobamarket = auwennja.triceti.world.systems.triceti_AddMarket.addMarketplace(
                 ModPlugin.cetevska,
                 stationOne,
                 null,
@@ -67,12 +68,14 @@ public class Ossa implements SectorGeneratorPlugin {
                 new ArrayList<>(Arrays.asList( //List of conditions for this method to iterate through and add to the market
                         Conditions.POPULATION_4,
                         Conditions.HABITABLE,
-                        Conditions.VOLATILES_ABUNDANT
+                        Conditions.VOLATILES_ABUNDANT,
+                        "triceti_ai_logistics_network"
                 )),
                 new ArrayList<>(Arrays.asList( //list of submarkets for this method to iterate through and add to the market. if a military base industry was added to this market, it would be consistent to add a military submarket too
                         Submarkets.SUBMARKET_OPEN, //add a default open market
                         Submarkets.SUBMARKET_STORAGE, //add a player storage market
-                        Submarkets.SUBMARKET_BLACK //add a black market
+                        Submarkets.SUBMARKET_BLACK, //add a black market
+                        Submarkets.GENERIC_MILITARY
                 )),
                 new ArrayList<>(Arrays.asList( //list of industries for this method to iterate through and add to the market
                         Industries.POPULATION, //population industry is required for weirdness to not happen
@@ -100,7 +103,36 @@ public class Ossa implements SectorGeneratorPlugin {
                 365 //number of in-game days for it to orbit once
         );
         planetTwo.setCustomDescriptionId("mesikdesc");
-        planetTwo.getMarket().addCondition(Conditions.RUINS_EXTENSIVE);
+        MarketAPI mesikmarket = auwennja.triceti.world.systems.triceti_AddMarket.addMarketplace(
+                ModPlugin.cetevska,
+                planetTwo,
+                null,
+                "Mesik",
+                4, //population size
+                new ArrayList<>(Arrays.asList( //List of conditions for this method to iterate through and add to the market
+                        Conditions.POPULATION_4,
+                        Conditions.DARK,
+                        Conditions.THIN_ATMOSPHERE,
+                        Conditions.ORE_SPARSE,
+                        Conditions.RARE_ORE_SPARSE,
+                        "triceti_ai_logistics_network"
+                )),
+                new ArrayList<>(Arrays.asList( //list of submarkets for this method to iterate through and add to the market. if a military base industry was added to this market, it would be consistent to add a military submarket too
+                        Submarkets.SUBMARKET_OPEN, //add a default open market
+                        Submarkets.SUBMARKET_STORAGE, //add a player storage market
+                        Submarkets.SUBMARKET_BLACK //add a black market
+                )),
+                new ArrayList<>(Arrays.asList( //list of industries for this method to iterate through and add to the market
+                        Industries.POPULATION, //population industry is required for weirdness to not happen
+                        Industries.SPACEPORT,
+                        Industries.GROUNDDEFENSES,
+                        Industries.MINING,
+                        Industries.REFINING
+                )),
+                true,
+                false
+        );
+
 
         SectorEntityToken oldstation_OSS = systemOSS.addCustomEntity("oldstation_OSS", "Abandoned Station", "station_side00", Factions.NEUTRAL);
         oldstation_OSS.setCircularOrbit(planetTwo, 95f, 190f, 162f);
@@ -119,7 +151,6 @@ public class Ossa implements SectorGeneratorPlugin {
         relay.setCircularOrbit(planetOne, 270f, 2550f, 400f); //assign an orbit
 
         systemOSS.autogenerateHyperspaceJumpPoints(true, true);
-        AbyssalRogueStellarObjectEPEC.setAbyssalDetectedRanges(systemOSS);
 
         if (!utrobamarket.hasCondition(ModPlugin.AI_LOGISTICS_CONDITION)) {
             utrobamarket.addCondition(ModPlugin.AI_LOGISTICS_CONDITION);

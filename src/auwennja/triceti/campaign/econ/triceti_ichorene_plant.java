@@ -12,7 +12,7 @@ public class triceti_ichorene_plant extends BaseIndustry {
         super.apply(true);
 
         int size = market.getSize();
-        int production = Math.max(0, size + 3);
+        int production = Math.max(0, size + 1);
         int demandAmount = Math.max(0, size - 3);
 
         demand(Commodities.VOLATILES, demandAmount);

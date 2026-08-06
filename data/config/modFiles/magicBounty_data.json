@@ -1,0 +1,115 @@
+{
+    "triceti-1":{
+    
+        "required_mods_id":["auwennja_triceti"],
+
+        #TRIGGERS (ALL OPTIONAL)
+        
+        #"trigger_market_id": [],
+        #"trigger_marketFaction_any":[],
+        #"trigger_marketFaction_alliedWith": false,
+        #"trigger_marketFaction_none": [],
+        #"trigger_marketFaction_enemyWith": false,
+        #"trigger_market_minSize": 0,
+        "trigger_player_minLevel": 3,
+        #"trigger_min_fleet_size": 0,
+        "trigger_min_days_elapsed": 100, 
+        "trigger_weight_mult": 1,
+        #"trigger_memKeys_all": {"$key":true,},
+        #"trigger_memKeys_any": {"$key":true,},
+        #"trigger_memKeys_none": {"$key":true,},
+		#"trigger_playerRelationship_atLeast": {"tritachyon":0.25},
+        "trigger_playerRelationship_atMost": {
+			#"faction":0.0,
+			},
+        
+        #BOUNTY DESCRIPTION
+        
+        "job_name": "Prototype Ship",
+        "job_description": "This posting mentions a prototype ship:\n\"The ==Tri-Tachyon Corporation== is conducting invaluable research to the advancement of humankind and requires independent parties to track down and disable an unknown ship type from the Abyss. Tri-Tachyon allows the contract holder to keep the spoils. By accepting this bounty, however, the contract holder agrees to transmit sensor data of the prototype ship upon completion of the bounty.\"",
+        "job_comm_reply": "",
+        #"job_intel_success": "",
+        #"job_intel_failure": "",
+        #"job_intel_expired": "",
+        "job_forFaction": "tritachyon",
+        "job_deadline": 0,
+        "job_credit_reward": 350000,
+        "job_reward_scaling": 1.0,
+        "job_reputation_reward":5,
+        #"job_item_reward": {"item":0,},
+        "job_type":"assassination",
+        "job_show_type": true,
+        "job_show_captain": false,
+        "job_show_fleet": "vanilla",
+        "job_show_distance": "vanilla",
+        "job_show_arrow": false,
+        "job_difficultyDescription": "auto",
+        "job_pick_option": "Accept the bounty and contract",
+        #"job_pick_script": "data.script.script",
+        #"job_memKey":"$key",
+        #"job_conclusion_script":"data.script.script",
+        
+		#"existing_target_memkey":"$memKey",
+
+        #TARGET COMMANDER (OPTIONAL),
+
+        "target_first_name":"Father",
+        "target_last_name":"Veliku",
+        "target_portrait":"graphics/triceti/portraits/cetevska_m13.png",
+        "target_gender":"MALE",
+        "target_rank": "unknown",
+        "target_post": "unknown",
+        "target_personality": "aggressive",
+        "target_aiCoreId": null,
+        "target_level": 7,
+        "target_elite_skills":2,
+        "target_skill_preference": "YES_ENERGY_YES_BALLISTIC_YES_MISSILE_NO_DEFENSE,",
+        #"target_skills": {}, 
+    
+    
+        #TARGET FLEET
+        
+        "fleet_name":"Cetevska Strike Force",
+        "fleet_faction": "ML_bounty",
+        "fleet_flagship_variant":"triceti_swaitas_prototype",
+        "fleet_flagship_name":"Utro",
+        "fleet_flagship_alwaysRecoverable": true,
+        "fleet_flagship_autofit": false,
+        "fleet_preset_ships": {
+			"triceti_rog_attack":3,
+			"triceti_etro_standard":2,
+		},
+        "fleet_preset_autofit": false,
+        #"fleet_scaling_multiplier": 0,
+        #"fleet_min_FP": 0,
+        #"fleet_composition_faction": "faction",
+        "fleet_composition_quality": 1,
+        "fleet_transponder": false,
+		"fleet_no_retreat": false,
+        "fleet_behavior": "ROAMING",
+        "fleet_attitude": "HOSTILE",
+        "fleet_musicSetId": null,
+        
+        #LOCATION
+        
+        "location_entitiesID": [
+		"gate",
+			"station",
+			"wreck",
+			"debris",
+			"stable_location",
+			"comm_relay",
+			"nav_buoy",
+			"sensor_array",
+			"gas_giant",
+			"planet",
+			"jump_point"],
+        #"location_marketFactions": ["faction",],
+        "location_distance": "FAR",
+        #"location_themes": ["procgen_no_theme", "procgen_no_theme_pulsar_blackhole",],
+        #"location_themes_blacklist": ["theme_already_occupied", "theme_already_colonized", "theme_hidden", "no_pulsar_blackhole"],
+        #"location_entities": ["entity",],
+        "location_prioritizeUnexplored": true,
+        "location_defaultToAnyEntity": true,
+    },
+}

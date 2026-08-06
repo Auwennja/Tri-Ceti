@@ -14,10 +14,12 @@ Increased turret speed by %s, reduced weapon recoil by %s and improved beam dama
 Energy Recirculation Network,triceti_energy_recirculation_network,,,,,"defensive, no_drop, shields, reqShields","Defenses, Shields",,FALSE,FALSE,FALSE,0,0,0,0,auwennja.triceti.hullmods.triceti_energy_recirculation_network,Expertly made flux conduits and electronics on board increase the venting speed by %s and the shield efficiency by %s.,Increases venting speed by %s and shield efficiency by %s.,,graphics/triceti/hullmods/energy_recirculation_network.png
 Myosynth,triceti_myosynth,,,,,no_drop,"Logistics, Special",,FALSE,FALSE,FALSE,0,0,0,0,auwennja.triceti.hullmods.triceti_myosynth,"Internal structures and machinery in this ship are made from Myosynth, a synthetic musculature. Its metabolism is capable of doing menial tasks by itself. In extreme situations, it requires additional biofuel and if not supplied, it starts consuming crew or individuals connected to the ship frame.
 
-Reduces the skeleton crew requirement by %s but increases crew casualty by %s.",Ship heals %s hull per second when damaged.,,graphics/triceti/hullmods/myosynth.png
+Reduces the skeleton crew requirement by %s but increases crew casualty by %s.",Reduces the skeleton crew requirement by %s but increases crew casualty by %s.,,graphics/triceti/hullmods/myosynth.png
 Fibrosteel,triceti_fibrosteel,,,,,"defensive, no_drop",Defenses,,FALSE,FALSE,FALSE,0,0,0,0,auwennja.triceti.hullmods.triceti_fibrosteel,"This ship's hull is made from an organically grown metal called Fibrosteel. Due to its physical properties, it cannot be combined with sophisticated armor plating. However, it can regenerate physical damage quickly.
 
-In combat, the ship heals %s per second when damaged.",Reduces the skeleton crew requirement by %s but increases crew casualty by %s.,,graphics/triceti/hullmods/fibrosteel.png
-,,,,,,,,,,,,,,,,,,,,
+In combat, the ship heals %s per second when damaged.",Ship heals %s hull per second when damaged.,,graphics/triceti/hullmods/fibrosteel.png
+Prototype Fibrosteel,triceti_prototype_fibrosteel,,,,,"defensive, no_drop",Defenses,,FALSE,FALSE,FALSE,0,0,0,0,auwennja.triceti.hullmods.triceti_prototype_fibrosteel,"This ship's hull is made from a prototype versiopn of the organically grown metal called Fibrosteel. For unknown reasons, this composition is able to repair itself significantly faster.
+
+In combat, the ship heals %s per second when damaged.",Ship heals %s hull per second when damaged.,,graphics/triceti/hullmods/prototype_fibrosteel.png
 ,,,,,,,,,,,,,,,,,,,,
 ,triceti_cetevska_arm_movement,,,,,,,,FALSE,FALSE,TRUE,0,0,0,0,auwennja.triceti.hullmods.triceti_cetevska_arm_movement,,,,
