@@ -116,7 +116,10 @@
 			"graphics/triceti/portraits/cetudan_m7.png",
 			"graphics/triceti/portraits/cetudan_m8.png",
 			"graphics/triceti/portraits/cetudan_m9.png",
-			"graphics/triceti/portraits/cetudan_m10.png"
+			"graphics/triceti/portraits/cetudan_m10.png",
+			"graphics/triceti/portraits/cetudan_m11.png",
+			"graphics/triceti/portraits/cetudan_m12.png",
+			"graphics/triceti/portraits/cetudan_m13.png"
 		],
 		"standard_female":[
 			"graphics/triceti/portraits/cetudan_f1.png",
@@ -125,7 +128,9 @@
 			"graphics/triceti/portraits/cetudan_f4.png",
 			"graphics/triceti/portraits/cetudan_f5.png",
 			"graphics/triceti/portraits/cetudan_f6.png",
-			"graphics/triceti/portraits/cetudan_f7.png"
+			"graphics/triceti/portraits/cetudan_f7.png",
+			"graphics/triceti/portraits/cetudan_f8.png",
+			"graphics/triceti/portraits/cetudan_f9.png"
 		],
 	},
 	"voices":{

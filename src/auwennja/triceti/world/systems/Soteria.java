@@ -32,7 +32,7 @@ public class Soteria implements SectorGeneratorPlugin {
         PlanetAPI star = systemSOT.initStar( //stars and planets are technically the same category of object, so stars use PlanetAPI
                 "Soteria", //set star id, this should be unique
                 "star_orange", //set star type, the type IDs come from starsector-core/data/campaign/procgen/star_gen_data.csv
-                1400, //set radius, 900 is a typical radius size
+                900, //set radius, 900 is a typical radius size
                 ((width/2) * 0.8f) - 19000, //sets the location of the star's one-way jump point in hyperspace, since it is the center of the star system, we want it to be in the center of the star system jump points in hyperspace
                 -height/2 * 0.9f,
                 900 //radius of corona terrain around star
@@ -246,7 +246,7 @@ public class Soteria implements SectorGeneratorPlugin {
                 ModPlugin.cetora
         );
         //assign orbit, this time it is orbiting planetOne
-        navBuoy.setCircularOrbitPointingDown(star, 0f, 1950f, 160f);
+        navBuoy.setCircularOrbitPointingDown(star, 0f, innerOrbitDistance + 1600, 160f);
 
         JumpPointAPI SOTJumpPoint =
                 Global.getFactory().createJumpPoint(
@@ -257,7 +257,7 @@ public class Soteria implements SectorGeneratorPlugin {
         SOTJumpPoint.setCircularOrbit(
                 star,
                 180f,
-                1100f,
+                1500f,
                 80f
         );
 

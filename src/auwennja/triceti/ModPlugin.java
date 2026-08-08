@@ -82,6 +82,11 @@ public class ModPlugin extends BaseModPlugin {
         Global.getSector()
                 .getPlayerFaction()
                 .getPortraits(FullName.Gender.FEMALE)
+                .remove("graphics/triceti/portraits/lyubov.png");
+
+        Global.getSector()
+                .getPlayerFaction()
+                .getPortraits(FullName.Gender.FEMALE)
                 .remove("graphics/triceti/portraits/pisenica.png");
 
         Global.getSector()
