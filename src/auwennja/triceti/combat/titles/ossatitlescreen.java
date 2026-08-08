@@ -26,7 +26,6 @@ public class ossatitlescreen extends BaseLunaTitleScreenPlugin {
                 "graphics/triceti/backgrounds/background_ossa.jpg",
                 true
         );
-        Global.getSoundPlayer().playCustomMusic(1, 1, "music_zea_lunasea_theme", true);
     }
 
     @Override
@@ -34,6 +33,19 @@ public class ossatitlescreen extends BaseLunaTitleScreenPlugin {
             float amount,
             List<InputEventAPI> events
     ) {
+        ViewportAPI viewport = Global.getCombatEngine().getViewport();
+
+        viewport.setExternalControl(true);
+
+        float width = Global.getSettings().getScreenWidth();
+        float height = Global.getSettings().getScreenHeight();
+
+        viewport.set(
+                -width / 2f,
+                -height / 2f,
+                width,
+                height
+        );
     }
 
     @Override
