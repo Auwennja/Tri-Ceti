@@ -39,7 +39,10 @@ oldstationdesc,CUSTOM,"A long-abandoned research station orbiting Mesik. Once op
 
 Deserted laboratories and sealed archives testify to years of research into the Orion-Perseus Abyss. Whatever the researchers discovered has vanished, but the station's persistent signal suggests it was never truly abandoned.",,,
 ,,,,,,,
-,,,,,,,
+feroniadesc,CUSTOM,This Arid world in the Pistis system was once deemed a potential colony target during early Domain settlement endeavors. Better options further away from the Abyss eventually led to Feronia being forgotten.,,"Feronia is an unlikely patchwork of dusty plains and sparse greenery. During your descent, a handful of simple settlements come into view, each surrounded by oversized landing pads and sprawling cargo yards.
+
+The settlement closest to you is modest and utilitarian, making it clear that whatever life Feronia supports, commerce remains the reason most people are here.
+",,,
 ,,,,,,,
 triceti_biformis,SHIP,"An export frigate derived from an early Bagaudas prototype, now found in Independent fleets.
 
@@ -105,8 +108,7 @@ Its exclusive association with the Mati suggests it was designed specifically to
 ,,,,,,,
 triceti_swaitas,SHIP,"The Swaitas is a unique prototype derived from the Gvezda-class destroyer. While retaining the exceptional mobility characteristic of the original design, the vessel abandons its predecessor's balanced armament in favor of a smaller number of significantly heavier weapon mounts.
 
-Recovered telemetry suggests the modifications pushed Cetevska biomechanical construction well beyond its usual limits. No additional examples have been documented, leading analysts to conclude that the design never entered serial production. Whether the project was abandoned due to manufacturing constraints or intended solely as a technology demonstrator remains unknown.
-",,,,,
+Recovered telemetry suggests the modifications pushed Cetevska biomechanical construction well beyond its usual limits. No additional examples have been documented, leading analysts to conclude that the design never entered serial production. Whether the project was abandoned due to manufacturing constraints or intended solely as a technology demonstrator remains unknown.",,,,,
 ,,,,,,,
 triceti_kumo,SHIP,"The Kumo is a compact autonomous frigate encountered in large numbers throughout Cetudan fleets. Individually, the class presents only a limited threat, but coordinated swarm tactics allow groups of Kumo drones to overwhelm isolated targets and screen larger vessels effectively.
 

@@ -1,6 +1,7 @@
 package auwennja.triceti.world;
 
 import auwennja.triceti.world.systems.Ossa;
+import auwennja.triceti.world.systems.Pistis;
 import auwennja.triceti.world.systems.Poros;
 import auwennja.triceti.world.systems.Soteria;
 import com.fs.starfarer.api.campaign.FactionAPI;
@@ -60,6 +61,7 @@ public class tricetigen {
         new Soteria().generate(sector);
         new Poros().generate(sector);
         new Ossa().generate(sector);
+        new Pistis().generate(sector);
 
         initFactionRelationships(sector);
     }

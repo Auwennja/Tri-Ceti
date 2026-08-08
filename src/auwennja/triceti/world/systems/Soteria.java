@@ -265,6 +265,11 @@ public class Soteria implements SectorGeneratorPlugin {
 
         systemSOT.addEntity(SOTJumpPoint);
 
+        StarSystemGenerator.addStableLocations(
+                systemSOT,
+                1
+        );
+
         //autogenerate jump points that will appear in hyperspace and in system
         systemSOT.autogenerateHyperspaceJumpPoints(true, true);
 
