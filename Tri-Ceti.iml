@@ -9,6 +9,15 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
+          <root url="jar://$MODULE_DIR$/../LunaLib/jars/LunaLib.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
           <root url="jar://$MODULE_DIR$/../../starsector-core/commons-compiler.jar!/" />
           <root url="jar://$MODULE_DIR$/../../starsector-core/commons-compiler-jdk.jar!/" />
           <root url="jar://$MODULE_DIR$/../../starsector-core/fs.common_obf.jar!/" />

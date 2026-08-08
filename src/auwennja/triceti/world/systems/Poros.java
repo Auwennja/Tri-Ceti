@@ -28,14 +28,14 @@ public class Poros implements SectorGeneratorPlugin {
 
         systemPOR.setBackgroundTextureFilename("graphics/backgrounds/background2.jpg");
         Random random = StarSystemGenerator.random;
-        systemPOR.getLocation().set(((width/2) * 0.8f) + 4000, (-height/2 * 0.9f) + 6500);
+        systemPOR.getLocation().set(((width/2) * 0.8f) + 3000, (-height/2 * 0.9f) + 8500);
 
         PlanetAPI star = systemPOR.initStar( //stars and planets are technically the same category of object, so stars use PlanetAPI
                 "Poros", //set star id, this should be unique
                 "star_white", //set star type, the type IDs come from starsector-core/data/campaign/procgen/star_gen_data.csv
                 600, //set radius, 900 is a typical radius size
-                ((width/2) * 0.8f) + 4000, //sets the location of the star's one-way jump point in hyperspace, since it is the center of the star system, we want it to be in the center of the star system jump points in hyperspace
-                (-height/2 * 0.9f) + 6500,
+                ((width/2) * 0.8f) + 3000, //sets the location of the star's one-way jump point in hyperspace, since it is the center of the star system, we want it to be in the center of the star system jump points in hyperspace
+                (-height/2 * 0.9f) + 8500,
                 150 //radius of corona terrain around star
         );
         star.setCustomDescriptionId("porosdesc");

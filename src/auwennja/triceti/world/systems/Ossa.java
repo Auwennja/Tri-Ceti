@@ -4,7 +4,6 @@ import auwennja.triceti.ModPlugin;
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.*;
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
-import com.fs.starfarer.api.impl.campaign.enc.AbyssalRogueStellarObjectEPEC;
 import com.fs.starfarer.api.impl.campaign.ids.*;
 import com.fs.starfarer.api.impl.campaign.procgen.StarSystemGenerator;
 import com.fs.starfarer.api.util.Misc;
@@ -17,14 +16,14 @@ import java.util.Random;
 public class Ossa implements SectorGeneratorPlugin {
     float width = Global.getSettings().getFloat("sectorWidth");
     float height = Global.getSettings().getFloat("sectorHeight");
-    public static Color OSS_AMBIENT_LIGHT_COLOR = new Color(100,100,120,150);
+    public static Color OSS_AMBIENT_LIGHT_COLOR = new Color(60,65,80,150);
 
     @Override
     public void generate(SectorAPI sector) {
         StarSystemAPI systemOSS = sector.createStarSystem("Ossa");
         LocationAPI hyper = Global.getSector().getHyperspace();
 
-        systemOSS.setBackgroundTextureFilename("graphics/backgrounds/background4.jpg");
+        systemOSS.setBackgroundTextureFilename("graphics/triceti/backgrounds/background_ossa.jpg");
         Random random = StarSystemGenerator.random;
         systemOSS.getLocation().set(((width/2) * 0.8f) - 8000, -height/2 - 1000);
 

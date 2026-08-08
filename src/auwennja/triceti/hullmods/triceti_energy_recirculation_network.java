@@ -8,7 +8,7 @@ import com.fs.starfarer.api.impl.campaign.ids.Stats;
 public class triceti_energy_recirculation_network extends BaseHullMod {
     public static float VENT_RATE_BONUS = 50f;
     public static float PIERCE_MULT = 0f;
-    public static float SHIELD_BONUS = 20f;
+    public static float SHIELD_BONUS = 25f;
 
     public void applyEffectsBeforeShipCreation(ShipAPI.HullSize hullSize, MutableShipStatsAPI stats, String id) {
         stats.getVentRateMult().modifyPercent(id, VENT_RATE_BONUS);

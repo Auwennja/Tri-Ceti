@@ -6,7 +6,6 @@ import auwennja.triceti.world.systems.Soteria;
 import com.fs.starfarer.api.campaign.FactionAPI;
 import com.fs.starfarer.api.campaign.RepLevel;
 import com.fs.starfarer.api.campaign.SectorAPI;
-import com.fs.starfarer.api.campaign.SectorGeneratorPlugin;
 import com.fs.starfarer.api.impl.campaign.ids.Factions;
 
 public class tricetigen {
