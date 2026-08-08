@@ -149,6 +149,11 @@ public class Ossa implements SectorGeneratorPlugin {
         //assign an orbit
         relay.setCircularOrbit(planetOne, 270f, 2550f, 400f); //assign an orbit
 
+        StarSystemGenerator.addStableLocations(
+                systemOSS,
+                1
+        );
+
         systemOSS.autogenerateHyperspaceJumpPoints(true, true);
 
         if (!utrobamarket.hasCondition(ModPlugin.AI_LOGISTICS_CONDITION)) {
