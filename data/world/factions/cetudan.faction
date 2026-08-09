@@ -174,4 +174,13 @@
 		"mercPatrol":"Mercenary Patrol",
 		"mercArmada":"Mercenary Company",
 	},
+	"music":{
+		"theme":"music_cetudan",
+		"market_neutral":"music_cetudan",
+		"market_hostile":"music_cetudan",
+		"market_friendly":"music_cetudan",
+		"encounter_neutral":"music_cetudan",
+		"encounter_hostile":"music_cetudan",
+		"encounter_friendly":"music_cetudan",
+	},
 },	
