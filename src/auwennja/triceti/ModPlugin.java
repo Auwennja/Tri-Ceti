@@ -3,9 +3,12 @@ package auwennja.triceti;
 import auwennja.triceti.world.tricetigen;
 import com.fs.starfarer.api.BaseModPlugin;
 import com.fs.starfarer.api.Global;
-import com.fs.starfarer.api.campaign.FactionAPI;
-import com.fs.starfarer.api.campaign.SectorAPI;
+import com.fs.starfarer.api.campaign.*;
 import com.fs.starfarer.api.characters.FullName;
+import com.fs.starfarer.api.impl.campaign.ids.Tags;
+import com.fs.starfarer.api.impl.campaign.procgen.StarSystemGenerator;
+import com.fs.starfarer.api.impl.campaign.terrain.StarCoronaTerrainPlugin;
+import com.fs.starfarer.api.util.Misc;
 
 public class ModPlugin extends BaseModPlugin {
 
@@ -18,13 +21,10 @@ public class ModPlugin extends BaseModPlugin {
     public static final String AI_LOGISTICS_CONDITION =
             "triceti_ai_logistics_network";
 
-    private static final String AI_LOGISTICS_RETROGEN_KEY =
-            "$triceti_ai_logistics_network_retrogen_v1";
-    private static final String ABANDONED_STATION_RETROGEN_KEY =
-            "$triceti_abandoned_station_market_retrogen_v1";
-    /*
-     * These must match the actual internal market IDs.
-     */
+
+    private static final String OSSA_SYSTEM_RETROGEN_KEY =
+            "$triceti_ossa_system_retrogen_v1";
+
     private static final String REDA_ENTITY_ID = "reda";
     private static final String KAMA_ENTITY_ID = "kama";
     private static final String UTROBA_ENTITY_ID = "utroba";
@@ -44,10 +44,6 @@ public class ModPlugin extends BaseModPlugin {
     public void onNewGame() {
         super.onNewGame();
 
-        /*
-         * Both branches previously performed exactly the same action,
-         * so the conditional was unnecessary.
-         */
         new tricetigen().generate(Global.getSector());
     }
 
@@ -86,6 +82,15 @@ public class ModPlugin extends BaseModPlugin {
                 .getPlayerFaction()
                 .getPortraits(FullName.Gender.FEMALE)
                 .remove("graphics/triceti/portraits/tavorin.png");
+
+
+        if (newGame) {
+            Global.getSector()
+                    .getMemoryWithoutUpdate()
+                    .set(OSSA_SYSTEM_RETROGEN_KEY, true);
+        } else {
+            applyOssaSystemRetrogen();
+        }
     }
 
 
@@ -99,8 +104,108 @@ public class ModPlugin extends BaseModPlugin {
         FactionAPI cetudanFaction =
                 sector.getFaction(ModPlugin.cetudan);
 
-        /*
-         * Relationship initialization can be added here later.
-         */
+    }
+
+    private void applyOssaSystemRetrogen() {
+
+        SectorAPI sector = Global.getSector();
+
+        if (sector == null) {
+            return;
+        }
+
+        if (sector.getMemoryWithoutUpdate()
+                .getBoolean(OSSA_SYSTEM_RETROGEN_KEY)) {
+            return;
+        }
+
+        StarSystemAPI ossa =
+                sector.getStarSystem("Ossa");
+
+        if (ossa == null) {
+            Global.getLogger(getClass()).warn(
+                    "Ossa retrogen: Ossa system could not be found."
+            );
+            return;
+        }
+
+        SectorEntityToken zemlaEntity =
+                sector.getEntityById("Zemla");
+
+        if (!(zemlaEntity instanceof PlanetAPI)) {
+            Global.getLogger(getClass()).warn(
+                    "Ossa retrogen: Zemla could not be found."
+            );
+            return;
+        }
+
+        PlanetAPI zemla =
+                (PlanetAPI) zemlaEntity;
+
+
+
+        PlanetAPI gravityWell = ossa.getStar();
+
+        if (gravityWell == null) {
+
+            gravityWell = ossa.initStar(
+                    "ossa_gravity_well",
+                    "zemla_gravity_well",
+                    0f,
+                    0f
+            );
+
+            gravityWell.setCustomDescriptionId(
+                    "zemladesc"
+            );
+
+            gravityWell.addTag(
+                    Tags.AMBIENT_LS
+            );
+
+            gravityWell.setSkipForJumpPointAutoGen(
+                    true
+            );
+
+
+            StarCoronaTerrainPlugin corona =
+                    Misc.getCoronaFor(gravityWell);
+
+            if (corona != null) {
+                ossa.removeEntity(
+                        corona.getEntity()
+                );
+            }
+        }
+
+        SectorEntityToken center =
+                ossa.getCenter();
+
+        if (center != null) {
+            zemla.setCircularOrbit(
+                    center,
+                    0f,
+                    0f,
+                    1000f
+            );
+        }
+
+
+        if (gravityWell.getContainingLocation() == ossa) {
+            ossa.removeEntity(gravityWell);
+        }
+
+        ossa.setType(
+                StarSystemGenerator.StarSystemType.NEBULA
+        );
+
+        sector.getMemoryWithoutUpdate().set(
+                OSSA_SYSTEM_RETROGEN_KEY,
+                true
+        );
+
+        Global.getLogger(getClass()).info(
+                "Successfully applied Ossa system retrogen."
+        );
     }
 }

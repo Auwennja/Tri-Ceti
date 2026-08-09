@@ -6,6 +6,7 @@ import com.fs.starfarer.api.campaign.*;
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
 import com.fs.starfarer.api.impl.campaign.ids.*;
 import com.fs.starfarer.api.impl.campaign.procgen.StarSystemGenerator;
+import com.fs.starfarer.api.impl.campaign.terrain.StarCoronaTerrainPlugin;
 import com.fs.starfarer.api.util.Misc;
 
 import java.awt.*;
@@ -31,6 +32,24 @@ public class Ossa implements SectorGeneratorPlugin {
         systemOSS.setLightColor(OSS_AMBIENT_LIGHT_COLOR);
         center.addTag(Tags.AMBIENT_LS);
 
+        PlanetAPI gravityWell = systemOSS.initStar(
+                "ossa_gravity_well",
+                "zemla_gravity_well",
+                0f,
+                0f
+        );
+
+        gravityWell.setCustomDescriptionId("zemladesc");
+        gravityWell.addTag(Tags.AMBIENT_LS);
+        gravityWell.setSkipForJumpPointAutoGen(true);
+
+        StarCoronaTerrainPlugin undesiredCorona =
+                Misc.getCoronaFor(gravityWell);
+
+        if (undesiredCorona != null) {
+            systemOSS.removeEntity(undesiredCorona.getEntity());
+        }
+
         PlanetAPI planetOne = systemOSS.addPlanet(
                 "Zemla",
                 null,
@@ -49,8 +68,13 @@ public class Ossa implements SectorGeneratorPlugin {
         planetOne.getMarket().addCondition(Conditions.ORE_MODERATE);
         planetOne.getMarket().addCondition(Conditions.RARE_ORE_RICH);
 
-        planetOne.setOrbit(null);
-        planetOne.setLocation(0, 0);
+        planetOne.setCircularOrbit(
+                center,
+                0f,
+                0f,
+                1000f
+        );
+
         planetOne.setCustomDescriptionId("zemladesc");
 
         SectorEntityToken stationOne = systemOSS.addCustomEntity("utroba", "Utroba", "station_lowtech2", ModPlugin.cetevska);
@@ -154,6 +178,10 @@ public class Ossa implements SectorGeneratorPlugin {
                 1
         );
 
+        systemOSS.removeEntity(gravityWell);
+        systemOSS.setType(
+                StarSystemGenerator.StarSystemType.NEBULA
+        );
         systemOSS.autogenerateHyperspaceJumpPoints(true, true);
 
         if (!utrobamarket.hasCondition(ModPlugin.AI_LOGISTICS_CONDITION)) {

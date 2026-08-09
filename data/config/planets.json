@@ -1,0 +1,18 @@
+{
+	"zemla_gravity_well":{
+		# The system info screen title is "<system name>, <this>".
+		"name":"Zemla gravity well",
+		"planetColor":[0,0,0,0],
+		"atmosphereThickness":0,
+		"atmosphereThicknessMin":0,
+		"atmosphereColor":[0,0,0,0],
+		"texture":"",
+		"icon":"graphics/icons/radar_circle.png",
+		"starscapeIcon":"graphics/starscape/star4.png",
+		"scaleMultStarscapeIcon":0.25,
+		"scaleMultMapIcon":0.25,
+		"iconColor":[80,90,115,110],
+		"isStar":true,
+		"isNebulaCenter":true,
+	},
+}
