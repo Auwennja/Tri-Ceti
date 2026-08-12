@@ -108,6 +108,7 @@ public class Ossa implements SectorGeneratorPlugin {
                         Industries.WAYSTATION,
                         Industries.MINING,
                         Industries.HEAVYINDUSTRY,
+                        Industries.PATROLHQ,
                         "triceti_ichorene_plant"
                 )),
                 true,
@@ -150,7 +151,8 @@ public class Ossa implements SectorGeneratorPlugin {
                         Industries.SPACEPORT,
                         Industries.GROUNDDEFENSES,
                         Industries.MINING,
-                        Industries.REFINING
+                        Industries.REFINING,
+                        Industries.PATROLHQ
                 )),
                 true,
                 false
